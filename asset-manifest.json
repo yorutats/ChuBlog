@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ChuBlog/static/css/main.dbbbc1d3.css",
+    "main.js": "/ChuBlog/static/js/main.6b20be5b.js",
+    "static/media/bg_home.svg": "/ChuBlog/static/media/bg_home.14e80ed8a03ef31e0e8863fb3fb29c0e.svg",
+    "static/media/page2.jpg": "/ChuBlog/static/media/page2.ae2ff517b0d9daf9f0db.jpg",
+    "static/media/page1.jpg": "/ChuBlog/static/media/page1.455e426186bbe0e4d248.jpg",
+    "static/media/card_2.jpg": "/ChuBlog/static/media/card_2.9336156c2a7cc64b0af1.jpg",
+    "static/media/blog2.jpg": "/ChuBlog/static/media/blog2.19dc2601535102b1e8b0.jpg",
+    "static/media/blog3.jpg": "/ChuBlog/static/media/blog3.543b5ea4330a6c81b6d5.jpg",
+    "static/media/card_1.jpg": "/ChuBlog/static/media/card_1.24411171b5ef040d41cc.jpg",
+    "static/media/blog1.jpg": "/ChuBlog/static/media/blog1.3399898ee1c5d31bc29e.jpg",
+    "static/media/hand-drawn-flat-design-simple-flower-outline_23-2149356439.webp": "/ChuBlog/static/media/hand-drawn-flat-design-simple-flower-outline_23-2149356439.a30ed118385b6174b9ba.webp",
+    "static/media/card_3.jpg": "/ChuBlog/static/media/card_3.c260389cd89eed6c2592.jpg",
+    "index.html": "/ChuBlog/index.html",
+    "main.dbbbc1d3.css.map": "/ChuBlog/static/css/main.dbbbc1d3.css.map",
+    "main.6b20be5b.js.map": "/ChuBlog/static/js/main.6b20be5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbbbc1d3.css",
+    "static/js/main.6b20be5b.js"
+  ]
+}
