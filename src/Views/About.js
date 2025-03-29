@@ -2,7 +2,6 @@ import React from "react";
 import experienceList from "../data/experience.json";
 import { Link } from "react-router-dom";
 import "../Sheets/About.css";
-import Footer from "../Componets/Footer";
 import { Avatar, Space } from "antd";
 import avatarImg from "../images/Avatar.jpg";
 
@@ -74,7 +73,6 @@ export default function About() {
           </div>
         ))}
       </div>
-      <Footer />
     </div>
   );
 }
