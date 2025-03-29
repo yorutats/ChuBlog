@@ -4,9 +4,6 @@ import Home from "./Views/Home";
 import About from "./Views/About";
 import PortfolioList from "./Views/Portfolio/PortfolioList";
 import PortfolioRouter from "./Views/Portfolio/PortfolioRouter";
-import Page1 from "./Views/Portfolio/Page1";
-import Page2 from "./Views/Portfolio/Page2";
-import Page3 from "./Views/Portfolio/Page3";
 function App() {
   return (
     <div>
