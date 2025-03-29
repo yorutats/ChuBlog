@@ -4,7 +4,6 @@ import Header from "../images/banner.jpg";
 import Card from "../Componets/Card";
 import Panels from "../Componets/Panels";
 import TextBlock_intro from "../Componets/TextBlock_intro";
-import Footer from "../Componets/Footer";
 import Card_img1 from "../images/card_1.jpg";
 import Card_img2 from "../images/card_2.jpg";
 import Card_img3 from "../images/card_3.jpg";
@@ -64,7 +63,6 @@ const Home = () => {
       ></iframe> */}
 
       <Panels />
-      <Footer />
     </div>
   );
 };
