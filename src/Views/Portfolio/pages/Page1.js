@@ -1,6 +1,6 @@
 import React from "react";
-import "../../Sheets/page1.css";
-import PaginationBut from "../../Componets/PaginationBut";
+import "../../../Sheets/page1.css";
+import PaginationBut from "../../../Componets/PaginationBut";
 
 export default function Page1() {
   return (

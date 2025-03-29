@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import "../../Sheets/page2.css";
-import PaginationBut from "../../Componets/PaginationBut";
+import "../../../Sheets/page2.css";
+import PaginationBut from "../../../Componets/PaginationBut";
 
 export default function Page2() {
   return (
