@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-.blog {
+.portfolio {
   /* I know I could write "margin: 0; padding: 0;". But that's not performant. */
   font-family: "Open Sans";
   line-height: 170%;
   color: #444;
 }
-.blog h2 {
+.portfolio h2 {
   margin-top: 20px;
 }
-.blog mark {
+.portfolio mark {
   background-color: transparent;
   color: #cccccc;
   padding: 0px 3px;

@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+      "title": "NASA Has Found Hundreds Of Potential New Planets",
+      "snippet": "NASA released a list of 219 new “planet candidates” discovered by the Kepler space telescope, 10 of which are similar to Earth’s size and may be habitable by other life forms.",
+      "image": "blog1.jpg",
+      "link": "/page1",
+      "alt": "Picture by Kyle Cottrell"
+    },
+    {
+        "id":2,
+      "title": "Nyanda Artwork Popped Up in Glasgow",
+      "snippet": "Drinking more caffeine during the coronavirus lockdown? Here's how it can affect you over time and advice on making it better for you.",
+      "image": "blog2.jpg",
+      "link": "/page2",
+      "alt": "Picture by Nathan Dumlao"
+    },
+    {
+        "id":3,
+      "title": "Banksy-Inspired Artwork Popped Up in Glasgow",
+      "snippet": "On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day...",
+      "image": "blog3.jpg",
+      "link": "/page3",
+      "alt": "Picture by Daniel Lincoln"
+    },
+    {
+        "id":4,
+        "title": "Banksy-Inspired Artwork Popped Up in Glasgow",
+        "snippet": "On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day...",
+        "image": "blog3.jpg",
+        "link": "/page4",
+        "alt": "Picture by Daniel Lincoln"
+      },
+      {
+        "title": "Banksy-Inspired Artwork Popped Up in Glasgow",
+        "snippet": "On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day...",
+        "image": "blog3.jpg",
+        "link": "/page5",
+        "alt": "Picture by Daniel Lincoln"
+      },    {
+        "title": "Banksy-Inspired Artwork Popped Up in Glasgow",
+        "snippet": "On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day...",
+        "image": "blog3.jpg",
+        "link": "/page6",
+        "alt": "Picture by Daniel Lincoln"
+      },    {
+        "title": "Banksy-Inspired Artwork Popped Up in Glasgow",
+        "snippet": "On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day...",
+        "image": "blog3.jpg",
+        "link": "/page7",
+        "alt": "Picture by Daniel Lincoln"
+      }
+  ]
+  

@@ -1,13 +1,10 @@
 import React from "react";
-import "../Sheets/page1.css";
-import { Pagination } from "antd";
-import { useNavigate } from "react-router-dom";
-import { Link, Outlet } from "react-router-dom";
-import PaginationBut from "../Componets/PaginationBut";
+import "../../Sheets/page1.css";
+import PaginationBut from "../../Componets/PaginationBut";
 
 export default function Page1() {
   return (
-    <div className="blog">
+    <div className="portfolio">
       <div className="article">
         <div className="page1-wrapper">
           <div className="wrapperText">
@@ -90,9 +87,9 @@ export default function Page1() {
             tousled.
           </p>
         </div>
-        <div className="parent-container"> 
-        <PaginationBut /> 
-          </div>
+        <div className="parent-container">
+          <PaginationBut />
+        </div>
       </div>
       <footer className="group footer">
         <div className="pull">

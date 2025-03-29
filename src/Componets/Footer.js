@@ -27,7 +27,7 @@ const TextBlock = () => {
               <a href="#/about">About</a>
             </li>
             <li class="list-inline-item">
-              <a href="#/blog">Blog</a>
+              <a href="#/portfolioList">portfolio</a>
             </li>
           </ul>
           <p class="copyright">Maker CHU © 2023</p>
