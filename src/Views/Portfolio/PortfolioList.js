@@ -1,7 +1,6 @@
 import React from "react";
 import "../../Sheets/portfolio.scss";
 import { Link } from "react-router-dom";
-import Footer from "../../Componets/Footer";
 import portfolioData from "../../data/portfolioData.json";
 
 // 動態載入圖片函式
@@ -44,7 +43,6 @@ export default function PortfolioList() {
           ))}
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

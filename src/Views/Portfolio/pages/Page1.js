@@ -1,88 +1,138 @@
 import React from "react";
 import "../../../Sheets/page.css";
 import PaginationBut from "../../../Componets/PaginationBut";
+import portfolioData from "../../../data/portfolioData.json";
+import { useParams } from "react-router-dom";
+import ImageZoomWrapper from "../../../Componets/ImageZoomWrapper";
+
+import pic1 from "../../../images/portfolio/jhaowu/全部商品.jpg";
+import pic2 from "../../../images/portfolio/jhaowu/初畫面(圖一).jpg";
+import pic3 from "../../../images/portfolio/jhaowu/委託商品.jpg";
+import pic4 from "../../../images/portfolio/jhaowu/平台介紹.jpg";
+import pic5 from "../../../images/portfolio/jhaowu/會員管理.jpg";
+import pic6 from "../../../images/portfolio/jhaowu/登入畫面.jpg";
+import pic7 from "../../../images/portfolio/jhaowu/系統功能畫面.jpg";
+import pic8 from "../../../images/portfolio/jhaowu/繪師個人介紹(圖二).jpg";
 
 export default function Page1() {
+  const { id } = useParams();
+  const project = portfolioData.find((item) => item.id === parseInt(id));
+
+  if (!project) return <div>找不到作品資料</div>;
+  const backgroundImage = require(`../../../images/${project.background}`);
+
   return (
-    <div className="portfolio">
-      <div className="article">
-        <div className="page-wrapper">
-          <div className="wrapperText">
-            <h1>
-              <mark>朝霧工作室</mark>
-            </h1>
-            <p id="author">
-              <mark>大學專題作品</mark>
+    <ImageZoomWrapper>
+      <div className="portfolio">
+        <div className="article">
+          <div
+            className="page-wrapper"
+            style={{
+              backgroundImage: `url(${backgroundImage})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          >
+            <div className="wrapperText">
+              <h1>
+                <mark style={{ color: "#0e3845" }}>{project.title}</mark>
+              </h1>
+              <div id="author">
+                <mark style={{ color: "#0e3845" }}>{project.alt}</mark>
+              </div>
+            </div>
+          </div>
+          <div className="articleText">
+            <h4 className="introduction">
+              畢業專題：結合數據分析與推薦技術之客製化委託設計平台（朝霧工作室）
+            </h4>
+            <p>
+              「朝霧工作室」是一個結合「繪圖委託」與「客製化商品販售」的全方位平台。使用者可以根據個人喜好尋找適合的繪師，進行插畫委託，並將圖像製作成客製化商品。平台導入推薦系統與資料分析技術，實現個人化推薦服務，提升使用者體驗。
             </p>
+            <h4>系統架構</h4>
+            <p>
+              本專題是一個整合推薦系統、會員管理與圖像商品化的委託平台，具備完整的前後端架構與資料分析流程。我負責系統架構設計、資料流整合與前後端實作。
+            </p>
+            <ul>
+              <li>前端：React 搭配 SCSS，RWD 響應式設計。</li>
+              <li>後端：Node.js／Express，串接資料庫與推薦模型。</li>
+              <li>資料庫：MySQL 設計完整 ER-Model 與關聯結構。</li>
+            </ul>
+            <h4>畫面展示</h4>
+            <div className="image-gallery">
+              <h5>登入畫面</h5>
+              <img
+                src={pic6}
+                alt="登入畫面"
+                className="gallery-image"
+                data-zoomable="true"
+              />
+              <h5>系統功能畫面</h5>
+              <img
+                src={pic7}
+                alt="系統功能畫面"
+                className="gallery-image"
+                data-zoomable="true"
+              />
+              <h5>全部商品</h5>
+              <img
+                src={pic1}
+                alt="全部商品"
+                className="gallery-image"
+                data-zoomable="true"
+              />
+              <h5>繪師清單</h5>
+              <img
+                src={pic2}
+                alt="初畫面"
+                className="gallery-image"
+                data-zoomable="true"
+              />
+              <h5>委託商品</h5>
+              <img
+                src={pic3}
+                alt="委託商品"
+                className="gallery-image"
+                data-zoomable="true"
+              />
+              <h5>平台介紹</h5>
+              <img
+                src={pic4}
+                alt="平台介紹"
+                className="gallery-image"
+                data-zoomable="true"
+              />
+              <h5>會員管理</h5>
+              <img
+                src={pic5}
+                alt="會員管理"
+                className="gallery-image"
+                data-zoomable="true"
+              />
+
+              <h5>繪師介紹</h5>
+              <img
+                src={pic8}
+                alt="繪師介紹"
+                className="gallery-image"
+                data-zoomable="true"
+              />
+            </div>
+          </div>
+
+          <div className="parent-container">
+            <PaginationBut />
           </div>
         </div>
-        <div className="articleText">
-          <h4 className="introduction">
-            Three wolf moon post-ironic bespoke lomo tattooed kinfolk. Retro
-            typewriter gluten-free hashtag cold-pressed. Beard cliche echo park
-            banh mi. Tattooed helvetica celiac, leggings waistcoat vegan retro
-            selfies art party distillery mustache echo park.
-          </h4>
-          <p>
-            Beard cliche echo park banh mi. Salvia tousled sustainable fap,
-            poutine direct trade scenester. Vinyl gastropub put a bird on it,
-            skateboard YOLO ethical flannel flexitarian kale chips. 3 wolf moon
-            post-ironic bespoke lomo tattooed kinfolk. Retro typewriter
-            gluten-free hashtag cold-pressed. Meh paleo aesthetic, chia mlkshk
-            etsy pickled ethical. Tattooed helvetica celiac, leggings waistcoat
-            vegan retro selfies art party distillery mustache echo park.
-          </p>
-          <h2>Kale chips</h2>
-          <p>
-            Occupy gluten-free umami wayfarers, post-ironic normcore semiotics
-            listicle deep v health goth cold-pressed. Raw denim williamsburg
-            synth normcore actually. Health goth post-ironic whatever, flannel
-            mlkshk tacos thundercats seitan put a bird on it try-hard migas
-            small batch. Occupy small batch intelligentsia, food truck gochujang
-            viral iPhone letterpress chicharrones etsy flannel. Banjo +1
-            slow-carb venmo hashtag health goth. Tumblr DIY occupy try-hard.
-            Quinoa scenester disrupt brooklyn mixtape, banh mi hoodie beard
-            messenger bag locavore kale chips.
-          </p>
-          <p>
-            Pop-up echo park semiotics williamsburg, next level literally retro
-            neutra. Microdosing twee lo-fi squid actually art party,
-            intelligentsia sartorial try-hard tote bag irony. Cliche mlkshk
-            freegan, truffaut master cleanse bushwick offal distillery
-            chicharrones man bun occupy thundercats vice pork belly yr. Small
-            batch mixtape helvetica +1. Godard ethical tote bag 8-bit fixie, raw
-            denim pitchfork. Fap venmo four loko lo-fi chicharrones, small batch
-            umami retro intelligentsia irony pug man braid flannel migas.
-            Gentrify taxidermy bicycle rights sustainable, chia tattooed
-            meggings chicharrones literally actually gochujang fanny pack.
-          </p>
-          <h2>Helvetica cray</h2>
-          <p>
-            Locavore YOLO asymmetrical polaroid, aesthetic bitters mumblecore
-            gochujang master cleanse cray helvetica kogi. Put a bird on it
-            helvetica food truck pop-up etsy, echo park forage organic readymade
-            trust fund. Post-ironic try-hard echo park, selfies wolf selvage
-            synth squid single-origin coffee raw denim tacos twee hella. Art
-            party meggings pug shoreditch waistcoat. Post-ironic hammock quinoa,
-            pickled pop-up cardigan cred put a bird on it banh mi green juice
-            cliche paleo. 90's cray fingerstache, irony chia slow-carb butcher
-            deep v direct trade YOLO. Helvetica cray vegan freegan four loko put
-            a bird on it, gentrify etsy locavore wayfarers pickled aesthetic
-            tousled.
-          </p>
-        </div>
-        <div className="parent-container">
-          <PaginationBut />
-        </div>
+        <footer className="group footer">
+          <div className="pull">
+            <small></small>
+          </div>
+          <div className="push">
+            <small></small>
+          </div>
+        </footer>
       </div>
-      <footer className="group footer">
-        <div className="pull">
-          <small></small>
-        </div>
-        <div className="push">
-          <small></small>
-        </div>
-      </footer>
-    </div>
+    </ImageZoomWrapper>
   );
 }
