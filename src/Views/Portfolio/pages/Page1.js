@@ -1,35 +1,19 @@
 import React from "react";
-import "../../../Sheets/page1.css";
+import "../../../Sheets/page.css";
 import PaginationBut from "../../../Componets/PaginationBut";
 
 export default function Page1() {
   return (
     <div className="portfolio">
       <div className="article">
-        <div className="page1-wrapper">
+        <div className="page-wrapper">
           <div className="wrapperText">
             <h1>
-              <mark>Tattooed</mark>
+              <mark>朝霧工作室</mark>
             </h1>
             <p id="author">
-              <mark>by Lina Regental</mark>
+              <mark>大學專題作品</mark>
             </p>
-            <div id="accountDetail" className="accountInfo">
-              <div className="header">
-                <h2>
-                  <mark>Lina Regental</mark>
-                </h2>
-                <p>
-                  <mark>Producer & Author</mark>
-                </p>
-              </div>
-              <div className="profilePicture"></div>
-              <p className="profileText">
-                Chef, Community Volunteer, Conveyor of Messages, Electro
-                Producer, Scapegoat. Is that a double rainbow? D:.
-              </p>
-              <button>Check me out </button>
-            </div>
           </div>
         </div>
         <div className="articleText">
