@@ -1,13 +1,13 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import "../../../Sheets/page2.css";
+import "../../../Sheets/page.css";
 import PaginationBut from "../../../Componets/PaginationBut";
 
 export default function Page2() {
   return (
     <div className="portfolio">
       <div className="article">
-        <div className="page2-wrapper">
+        <div className="page-wrapper">
           <div className="wrapperText">
             <h1>
               <mark>INTRODUCTION TO ART</mark>

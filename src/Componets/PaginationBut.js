@@ -1,20 +1,20 @@
 import React from "react";
 import { Pagination } from "antd";
 import { useNavigate, useLocation } from "react-router-dom";
-import portfolioData from "../data/portfolioData.json"; // 匯入資料
+import portfolioData from "../data/portfolioData.json";
 
 export default function PaginationBut() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const currentPage = parseInt(location.pathname.replace("/page", "")) || 1;
+  const match = location.pathname.match(/\/portfolio\/(\d+)/);
+  const currentPage = match ? parseInt(match[1]) : 1;
 
-  const itemsPerPage = 1; // 每頁顯示筆數
+  const itemsPerPage = 1;
   const totalItems = portfolioData.length;
-  const totalPages = Math.ceil(totalItems / itemsPerPage); // 自動計算頁數
 
   const handlePaginationChange = (page) => {
-    navigate(`/page${page}`);
+    navigate(`/portfolio/${page}`);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
