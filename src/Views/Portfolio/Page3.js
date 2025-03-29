@@ -1,13 +1,11 @@
 import React from "react";
-import "../Sheets/page3.css";
-import { Pagination } from "antd";
-import { useNavigate } from "react-router-dom";
 import { Outlet } from "react-router-dom";
-import PaginationBut from "../Componets/PaginationBut";
+import "../../Sheets/page3.css";
+import PaginationBut from "../../Componets/PaginationBut";
 
 export default function Page3() {
   return (
-    <div className="blog">
+    <div className="portfolio">
       <div className="article">
         <div className="page3-wrapper">
           <div className="wrapperText">

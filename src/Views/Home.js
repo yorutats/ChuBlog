@@ -18,8 +18,8 @@ const Home = () => {
       imageUrl: Card_img1,
     },
     {
-      title: "Blog",
-      description: "Description for Blog",
+      title: "Portfolio",
+      description: "Description for Portfolio",
       imageUrl: Card_img2,
     },
     {
