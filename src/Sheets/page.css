@@ -100,3 +100,58 @@ button:hover {
   align-items: center;
   height: 15vh; /* 或者根据需要的高度调整 */
 }
+
+.articleText ul {
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+
+.articleText li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.image-gallery {
+  /* display: grid; */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.gallery-image {
+  width: 80%;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.image-gallery img {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.image-gallery img:hover {
+  transform: scale(1.02);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+}

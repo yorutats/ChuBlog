@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import "../../../Sheets/page3.css";
+import "../../../Sheets/page.css";
 import PaginationBut from "../../../Componets/PaginationBut";
 
 export default function Page3() {
