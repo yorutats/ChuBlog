@@ -297,7 +297,7 @@
     "image": "portfolio/絃崴/封面.jpg",
     "background": "portfolio/絃崴/banner.png",
     "alt": "企業合作",
-    "color":"black",
+    "color":"white",
     "images": [
     { "title": "首頁畫面", "path": "portfolio/絃崴/首頁.jpeg" },
     { "title": "全部商品", "path": "portfolio/絃崴/全部商品.jpeg" },
