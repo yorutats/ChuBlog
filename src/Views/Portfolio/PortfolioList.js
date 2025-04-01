@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Sheets/portfolio.scss";
+import "../../Sheets/portfolio.css";
 import { Link } from "react-router-dom";
 import portfolioData from "../../data/portfolioData.json";
 
@@ -21,13 +21,13 @@ export default function PortfolioList() {
           <div className="card_portfolio-container">
             {portfolioData.map((item, index) => (
               <div className="card_portfolio-card" key={index}>
-                <figure className="card_portfolio-card__thumb">
+                <div className="card_portfolio-card__thumb">
                   <img
                     src={getImage(item.image)}
                     alt={item.alt}
                     className="card_portfolio-card__image"
                   />
-                  <figcaption className="card_portfolio-card__caption">
+                  <div className="card_portfolio-card__caption">
                     <h2 className="card_portfolio-card__title">{item.title}</h2>
                     <p className="card_portfolio-card__snippet">
                       {item.snippet}
@@ -40,8 +40,8 @@ export default function PortfolioList() {
                         View Project
                       </Link>
                     </nav>
-                  </figcaption>
-                </figure>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
