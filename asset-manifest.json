@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/ChuBlog/static/css/main.3320d4d5.css",
-    "main.js": "/ChuBlog/static/js/main.a43290d3.js",
+    "main.css": "/ChuBlog/static/css/main.901a5220.css",
+    "main.js": "/ChuBlog/static/js/main.6de48abd.js",
     "static/media/card_2.jpg": "/ChuBlog/static/media/card_2.f2127b3453a39f24f459.jpg",
     "static/media/card_3.jpg": "/ChuBlog/static/media/card_3.12af92597f322a58d0bb.jpg",
     "static/media/首頁.mp4": "/ChuBlog/static/media/首頁.8cec6b7a8684cabaf4e5.mp4",
-    "static/media/bg_home.svg": "/ChuBlog/static/media/bg_home.14e80ed8a03ef31e0e88.svg",
     "static/media/首頁.gif": "/ChuBlog/static/media/首頁.75b168a16b45fc89a458.gif",
     "static/media/banner.jpg": "/ChuBlog/static/media/banner.0d71bbaf2c0006529a67.jpg",
     "static/media/封面.jpg": "/ChuBlog/static/media/封面.c28234d403c6932fdb9b.jpg",
@@ -16,14 +15,9 @@
     "static/media/Desktop - 1.png": "/ChuBlog/static/media/Desktop - 1.45fe7caa939effe6dbfe.png",
     "static/media/香茗園.png": "/ChuBlog/static/media/香茗園.45fe7caa939effe6dbfe.png",
     "static/media/系統功能畫面.jpg": "/ChuBlog/static/media/系統功能畫面.a41ee65d26013d4b5608.jpg",
-    "static/media/page3.jpg": "/ChuBlog/static/media/page3.fa0febe575ccf778223d.jpg",
     "static/media/Avatar.jpg": "/ChuBlog/static/media/Avatar.d9d01104ff02cde2bdf9.jpg",
-    "static/media/pexels-tara-winstead-6479555.jpg": "/ChuBlog/static/media/pexels-tara-winstead-6479555.70459e00f839ea93faf8.jpg",
     "static/media/banner.png": "/ChuBlog/static/media/banner.0491e2e6c2d0540e715a.png",
     "static/media/初畫面(圖一).jpg": "/ChuBlog/static/media/初畫面(圖一).05cc1e328cf481e186a7.jpg",
-    "static/media/page2.jpg": "/ChuBlog/static/media/page2.ae2ff517b0d9daf9f0db.jpg",
-    "static/media/header.svg": "/ChuBlog/static/media/header.a2018ea18d5d4c4e0db0.svg",
-    "static/media/main_header.svg": "/ChuBlog/static/media/main_header.a2018ea18d5d4c4e0db0.svg",
     "static/media/首頁.jpeg": "/ChuBlog/static/media/首頁.6add3567fd0031b1e4d4.jpeg",
     "static/media/委託商品.jpg": "/ChuBlog/static/media/委託商品.5c129c6c43ba78b10339.jpg",
     "static/media/繪師個人介紹(圖二).jpg": "/ChuBlog/static/media/繪師個人介紹(圖二).df15bf55e1306de35bee.jpg",
@@ -64,11 +58,9 @@
     "static/media/關聯規則.png": "/ChuBlog/static/media/關聯規則.e03131b03ced71237bad.png",
     "static/media/使用者介面.jpg": "/ChuBlog/static/media/使用者介面.ff992b251e8c8234582c.jpg",
     "static/media/研討會首頁.png": "/ChuBlog/static/media/研討會首頁.7a99487617274af104a7.png",
-    "static/media/blog2.jpg": "/ChuBlog/static/media/blog2.19dc2601535102b1e8b0.jpg",
     "static/media/模組文件分類.png": "/ChuBlog/static/media/模組文件分類.f8489b534ab34cda9b87.png",
     "static/media/字.png": "/ChuBlog/static/media/字.5cafb7cb4564664165a7.png",
     "static/media/資料預測.png": "/ChuBlog/static/media/資料預測.dca5ee092698f79bef92.png",
-    "static/media/blog3.jpg": "/ChuBlog/static/media/blog3.543b5ea4330a6c81b6d5.jpg",
     "static/media/議程資訊.png": "/ChuBlog/static/media/議程資訊.e14527cd7ffe896ad8a3.png",
     "static/media/關於本研討會.png": "/ChuBlog/static/media/關於本研討會.2862d9001f15ea90a23c.png",
     "static/media/商品管理.jpg": "/ChuBlog/static/media/商品管理.3d639bede1ce263e19c1.jpg",
@@ -78,7 +70,6 @@
     "static/media/編輯鳥類.jpg": "/ChuBlog/static/media/編輯鳥類.7ab29bad6e55d1f4ba6e.jpg",
     "static/media/編輯帳號頁面.png": "/ChuBlog/static/media/編輯帳號頁面.19b7f182a61cfbb40a25.png",
     "static/media/會員註冊.png": "/ChuBlog/static/media/會員註冊.97bbda89ca7de6ba3ec5.png",
-    "static/media/blog1.jpg": "/ChuBlog/static/media/blog1.3399898ee1c5d31bc29e.jpg",
     "static/media/投稿頁面.png": "/ChuBlog/static/media/投稿頁面.46d13b8481e7bf030253.png",
     "static/media/hand-drawn-flat-design-simple-flower-outline_23-2149356439.webp": "/ChuBlog/static/media/hand-drawn-flat-design-simple-flower-outline_23-2149356439.a30ed118385b6174b9ba.webp",
     "static/media/字2.png": "/ChuBlog/static/media/字2.960324c837fe6fe953fc.png",
@@ -94,13 +85,13 @@
     "static/media/運動日記.png": "/ChuBlog/static/media/運動日記.78f713228499bddb812c.png",
     "static/media/設置.png": "/ChuBlog/static/media/設置.447a271d3411ff2e09cb.png",
     "static/media/default.png": "/ChuBlog/static/media/default.155547c0500bcbcae357.png",
-    "static/media/footer.svg": "/ChuBlog/static/media/footer.9df96e251961dd940525.svg",
     "index.html": "/ChuBlog/index.html",
-    "main.3320d4d5.css.map": "/ChuBlog/static/css/main.3320d4d5.css.map",
-    "main.a43290d3.js.map": "/ChuBlog/static/js/main.a43290d3.js.map"
+    "static/media/favicon.svg": "/ChuBlog/static/media/favicon.fb88fe5bf5abd6031b3a.svg",
+    "main.901a5220.css.map": "/ChuBlog/static/css/main.901a5220.css.map",
+    "main.6de48abd.js.map": "/ChuBlog/static/js/main.6de48abd.js.map"
   },
   "entrypoints": [
-    "static/css/main.3320d4d5.css",
-    "static/js/main.a43290d3.js"
+    "static/css/main.901a5220.css",
+    "static/js/main.6de48abd.js"
   ]
 }
