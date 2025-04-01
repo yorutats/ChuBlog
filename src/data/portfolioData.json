@@ -6,7 +6,7 @@
     "image": "portfolio/jhaowu/jhaowu.png",
     "background": "portfolio/jhaowu/jhaowu.png",
     "alt": "大學專題作品",
-    "color":"#0e3845",
+    "color":"#eff5f7",
     "images": [
       {
         "title": "登入畫面",
@@ -83,7 +83,7 @@
     "image": "portfolio/寵物店商家管理系統/首頁.jpg",
     "background": "portfolio/寵物店商家管理系統/banner.jpg",
     "alt": "寵物店管理系統專題作品",
-    "color":"#351b07",
+    "color":"#ffcea8",
     "images": [
       { "title": "首頁", "path": "portfolio/寵物店商家管理系統/首頁.gif" },
       { "title": "註冊畫面", "path": "portfolio/寵物店商家管理系統/註冊畫面.jpg" },
@@ -142,7 +142,7 @@
     "image": "portfolio/健康管理APP/封面.png",
     "background": "portfolio/健康管理APP/banner.jpg",
     "alt": "課程專題作品",
-    "color":"#cec7c7",
+    "color":"#ffd5d5",
     "images": [
       {
         "title": "個人資料",
@@ -181,7 +181,7 @@
     "snippet": "結合排行榜推薦與我的最愛功能，打造簡潔直觀的音樂播放體驗，使用者可即時播放、收藏與管理歌曲。",
     "image": "portfolio/extra-projects/音樂撥放器.png",
     "background": "portfolio/extra-projects/音樂撥放器-banner.jpg",
-    "alt": "音樂播放平台專題作品",
+    "alt": "課程專題作品",
     "color":"white",
     "images": [
       {
@@ -199,7 +199,7 @@
     "image": "portfolio/extra-projects/初冊文化.png",
     "background": "portfolio/extra-projects/初冊-banner.jpg",
     "alt": "企業形象網站設計",
-    "color":"rgb(44 35 27)",
+    "color":"#ffdabd",
     "images": [
       {
         "title": "初冊文化形象網站首頁",
@@ -215,7 +215,7 @@
     "image": "portfolio/extra-projects/香茗園.png",
     "background": "portfolio/extra-projects/香茗園-banner.jpg",
     "alt": "香茗園茶行品牌合作專案",
-    "color":"rgb(59 37 39)",
+    "color":"white",
     "images": [
       {
         "title": "形象展示圖",
@@ -230,7 +230,7 @@
     "image": "portfolio/大數據分析與決策/banner.jpg",
     "background": "portfolio/大數據分析與決策/banner.jpg",
     "alt": "課程專題",
-    "color":"rgb(61 91 101)",
+    "color":"rgb(217 227 231)",
     "pdf": "https://drive.google.com/file/d/1VJ_lOEpR_d6ZQB1jHiPgix88eSNPLcG7/view?usp=sharing",
     "images": [
       { "title": "K-means 分群結果", "path": "portfolio/大數據分析與決策/k-means 分群.png" },
