@@ -30,7 +30,7 @@ const TextBlock = () => {
               <a href="#/portfolioList">Portfolio</a>
             </li>
           </ul>
-          <p class="copyright">Maker CHU © 2023</p>
+          <p class="copyright">Maker YiChu © 2024</p>
         </footer>
       </div>
     </div>
