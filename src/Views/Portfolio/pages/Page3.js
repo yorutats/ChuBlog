@@ -1,127 +1,65 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
-import "../../../Sheets/page.css";
-import PaginationBut from "../../../Componets/PaginationBut";
+import PortfolioLayout from "../../../Components/PortfolioLayout";
 
 export default function Page3() {
   return (
-    <div className="portfolio">
-      <div className="article">
-        <div className="page3-wrapper">
-          <div className="wrapperText">
-            <h1>
-              <mark>Lorem Ipsum</mark>
-            </h1>
-            <p id="author">
-              <mark>
-                Introduction To Art by Muffet Jones is licensed under a Creative
-              </mark>
-            </p>
-            <div id="accountDetail" className="accountInfo">
-              <div className="header">
-                <h2>
-                  <mark>Lina Regental</mark>
-                </h2>
-                <p>
-                  <mark>Producer & Author</mark>
-                </p>
-              </div>
-              <div className="profilePicture"></div>
-              <p className="profileText">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </p>
-              <button>Check me out </button>
-            </div>
-          </div>
-        </div>
-        <div className="articleText">
+    <PortfolioLayout>
+      {(project) => (
+        <>
           <h4 className="introduction">
-            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit..." "There is no one who loves pain
-            itself, who seeks after it and wants to have it, simply because it
-            is pain..."
+            寵物店商家管理系統 — 結合商品與顧客管理的全方位平台
           </h4>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            本系統提供商家統一管理寵物品項、供應商資訊、顧客資料與照護手冊，並可執行新增、刪除、查詢與修改操作（CRUD），支援訂單與購買記錄管理。管理者與使用者介面分離，提升操作便利性與資料完整性，適合應用於中小型寵物門市或寵物電商平台。
           </p>
-          <h2>Where does it come from?</h2>
+
+          <hr className="section-divider" />
+          <h4>系統架構</h4>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-            amet..", comes from a line in section 1.10.32.{" "}
+            一套整合商品、顧客與訂單管理的寵物店後台系統，支援完整 CRUD
+            與多模組操作。
           </p>
-          <p>
-            The oldest documented forms of art are visual arts, although
-            archeologists suggest early humans also made music. Over time
-            techniques – media – has included painting, sculpture, printmaking
-            and, beginning in the 19th century, photography. Architecture is
-            often included as one of the visual arts; however, like the
-            decorative arts, it involves the creation of objects in which the
-            practical considerations of use are essential in a way that they
-            usually are not in another visual art like a painting. Art may be
-            characterized in terms of mimesis (its “realistic” representation of
-            reality), expression, communication of emotion, or other qualities.
-            Though the definition of what constitutes art is disputed and has
-            changed over time, general descriptions center on the idea of
-            imaginative or technical skill stemming from human agency and
-            creation. When it comes to visually identifying a work of art, there
-            is no single set of values or aesthetic traits. A Baroque painting
-            will not necessarily share much with a contemporary performance
-            piece, but they are both considered art.
-          </p>
-          <h2>Why do we use it?</h2>
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).
-          </p>
-        </div>
-        <div className="parent-container">
-          <PaginationBut />
-        </div>
-      </div>
-      <footer className="group footer">
-        <div className="pull">
-          <small></small>
-        </div>
-        <div className="push">
-          <small></small>
-        </div>
-      </footer>
-      <Outlet />
-    </div>
+          <ul>
+            <li>
+              前端模板：使用 Flask + Jinja2 模板引擎，整合 HTML 顯示與資料渲染。
+            </li>
+            <li>
+              後端邏輯：Flask
+              作為主要框架，劃分模組（如api、bookstore、backstage）。
+            </li>
+            <li>
+              資料庫設計：透過多個
+              SQL檔案分別管理不同模組，具備良好的資料表結構。
+            </li>
+          </ul>
+
+          <hr className="section-divider" />
+          <h4>畫面展示</h4>
+          <div className="image-gallery">
+            {project.images?.map((img, index) => {
+              let imageSrc;
+              try {
+                imageSrc = require(`../../../images/${img.path}`);
+              } catch (e) {
+                console.warn("圖片載入失敗:", img.path);
+                imageSrc = ""; // 或設定成預設圖像 require('../../../images/default.jpg')
+              }
+
+              return (
+                <div key={index}>
+                  <h5>{img.title}</h5>
+                  <img
+                    src={imageSrc}
+                    alt={img.title}
+                    className="gallery-image"
+                    data-zoomable="true"
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
+    </PortfolioLayout>
   );
 }

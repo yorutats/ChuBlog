@@ -1,106 +1,63 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
-import "../../../Sheets/page.css";
-import PaginationBut from "../../../Componets/PaginationBut";
+import PortfolioLayout from "../../../Components/PortfolioLayout";
 
 export default function Page2() {
   return (
-    <div className="portfolio">
-      <div className="article">
-        <div className="page-wrapper">
-          <div className="wrapperText">
-            <h1>
-              <mark>INTRODUCTION TO ART</mark>
-            </h1>
-            <p id="author">
-              <mark>
-                Introduction To Art by Muffet Jones is licensed under a Creative
-              </mark>
-            </p>
-            <div id="accountDetail" className="accountInfo">
-              <div className="header">
-                <h2>
-                  <mark>Lina Regental</mark>
-                </h2>
-                <p>
-                  <mark>Producer & Author</mark>
-                </p>
-              </div>
-              <div className="profilePicture"></div>
-              <p className="profileText">
-                These images and objects have accompanied human beings
-                throughout time. The forms, mediums, and techniques with which
-                we have pictured our world has changed along with human beings,
-                but their impulse to picture that world has not.
-              </p>
-              <button>Check me out </button>
-            </div>
-          </div>
-        </div>
-        <div className="articleText">
+    <PortfolioLayout>
+      {(project) => (
+        <>
           <h4 className="introduction">
-            These images and objects have accompanied human beings throughout
-            time. The forms, mediums, and techniques with which we have pictured
-            our world has changed along with human beings, but their impulse to
-            picture that world has not.
+            「碳為觀止」從系統變革觀點與議題情境模擬遊戲建構氣候變遷素
           </h4>
           <p>
-            Human beings seem to be hard-wired to create. From sites of the
-            earliest human – and even proto-human – occupation come objects that
-            seem to be attempts to illustrate the world.
+            本系統以氣候變遷素養教育為核心目標，結合多種技術模組與資料建構策略，建置一個具互動性、資料驅動與素養導向的教學平台。系統整合內容資源、關鍵詞資料庫、語義分析工具與學習模組，協助學生透過情境模擬與體驗學習，提升氣候變遷相關素養。
           </p>
-          <h2>Introduction to Art</h2>
+
+          <hr className="section-divider" />
+          <h4>系統架構</h4>
           <p>
-            So how do we define “fine” art, then? Art is a highly diverse range
-            of human activities which create visual, auditory, or performed
-            artifacts— artworks—that express the author’s imaginative or
-            technical skill, and are intended to be appreciated for their beauty
-            or emotional power.
+            結合資料分析與素養教育的氣候變遷學習平台，透過語料分析、視覺化圖譜與模組化課程設計，協助使用者理解氣候議題脈絡並強化行動意識。
           </p>
-          <p>
-            The oldest documented forms of art are visual arts, although
-            archeologists suggest early humans also made music. Over time
-            techniques – media – has included painting, sculpture, printmaking
-            and, beginning in the 19th century, photography. Architecture is
-            often included as one of the visual arts; however, like the
-            decorative arts, it involves the creation of objects in which the
-            practical considerations of use are essential in a way that they
-            usually are not in another visual art like a painting. Art may be
-            characterized in terms of mimesis (its “realistic” representation of
-            reality), expression, communication of emotion, or other qualities.
-            Though the definition of what constitutes art is disputed and has
-            changed over time, general descriptions center on the idea of
-            imaginative or technical skill stemming from human agency and
-            creation. When it comes to visually identifying a work of art, there
-            is no single set of values or aesthetic traits. A Baroque painting
-            will not necessarily share much with a contemporary performance
-            piece, but they are both considered art.
-          </p>
-          <h2>What is Art?</h2>
-          <p>
-            Despite the seemingly indefinable nature of art, there have always
-            existed certain formal guidelines for its aesthetic judgment and
-            analysis. Formalism is a concept in art theory in which an artwork’s
-            artistic value is determined solely by its form, or how it is made.
-            Formalism evaluates works on a purely visual level, considering
-            medium and compositional elements as opposed to any reference to
-            realism, context, or content. In this class you will learn to “read”
-            an artwork according to its formal qualities – a “formal analysis”.
-          </p>
-        </div>
-        <div className="parent-container">
-          <PaginationBut />
-        </div>
-      </div>
-      <footer className="group footer">
-        <div className="pull">
-          <small></small>
-        </div>
-        <div className="push">
-          <small></small>
-        </div>
-      </footer>
-      <Outlet />
-    </div>
+          <ul>
+            <li>
+              前端：設計互動式教學平台介面，提供關鍵詞查詢與模組化課程展示。
+            </li>
+            <li>
+              後端：結合語料分析、Pathfinder 圖譜與學習評量模組，整合資料流程。
+            </li>
+            <li>
+              資料處理：建置氣候變遷關鍵詞資料庫，應用中文斷詞與關聯分析技術。
+            </li>
+            <li>系統應用：支援課程模組管理、測驗回饋與學習歷程追蹤。</li>
+          </ul>
+
+          <hr className="section-divider" />
+          <h4>畫面展示</h4>
+          <div className="image-gallery">
+            {project.images?.map((img, index) => {
+              let imageSrc;
+              try {
+                imageSrc = require(`../../../images/${img.path}`);
+              } catch (e) {
+                console.warn("圖片載入失敗:", img.path);
+                imageSrc = require("../../../images/default.png");
+              }
+
+              return (
+                <div key={index}>
+                  <h5>{img.title}</h5>
+                  <img
+                    src={imageSrc}
+                    alt={img.title}
+                    className="gallery-image"
+                    data-zoomable="true"
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
+    </PortfolioLayout>
   );
 }

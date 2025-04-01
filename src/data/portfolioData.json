@@ -1,54 +1,313 @@
 [
-    {
-      "id":1,
-      "title": "朝霧工作室",
-      "snippet": "透過架設商務網站的方式販售客製化商品，提供消費者所期望之商品。並可進行商業、個人繪畫委託服務。",
-      "image": "portfolio/jhaowu/jhaowu.png",
-      "background": "portfolio/jhaowu/jhaowu.png",
-      "alt": "大學專題作品"
-    },
-    {
-        "id":2,
-      "title": "Nyanda Artwork Popped Up in Glasgow",
-      "snippet": "Drinking more caffeine during the coronavirus lockdown? Here's how it can affect you over time and advice on making it better for you.",
-      "image": "blog2.jpg",
-      "link": "/page2",
-      "alt": "Picture by Nathan Dumlao"
-    },
-    {
-        "id":3,
-      "title": "Banksy-Inspired Artwork Popped Up in Glasgow",
-      "snippet": "On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day...",
-      "image": "blog3.jpg",
-      "link": "/page3",
-      "alt": "Picture by Daniel Lincoln"
-    },
-    {
-        "id":4,
-        "title": "Banksy-Inspired Artwork Popped Up in Glasgow",
-        "snippet": "On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day...",
-        "image": "blog3.jpg",
-        "link": "/page4",
-        "alt": "Picture by Daniel Lincoln"
+  {
+    "id": 1,
+    "title": "朝霧工作室",
+    "snippet": "透過架設商務網站的方式販售客製化商品，提供消費者所期望之商品。並可進行商業、個人繪畫委託服務。",
+    "image": "portfolio/jhaowu/jhaowu.png",
+    "background": "portfolio/jhaowu/jhaowu.png",
+    "alt": "大學專題作品",
+    "color":"#0e3845",
+    "images": [
+      {
+        "title": "登入畫面",
+        "path": "portfolio/jhaowu/登入畫面.jpg"
       },
       {
-        "title": "Banksy-Inspired Artwork Popped Up in Glasgow",
-        "snippet": "On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day...",
-        "image": "blog3.jpg",
-        "link": "/page5",
-        "alt": "Picture by Daniel Lincoln"
-      },    {
-        "title": "Banksy-Inspired Artwork Popped Up in Glasgow",
-        "snippet": "On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day...",
-        "image": "blog3.jpg",
-        "link": "/page6",
-        "alt": "Picture by Daniel Lincoln"
-      },    {
-        "title": "Banksy-Inspired Artwork Popped Up in Glasgow",
-        "snippet": "On Friday, offices around the country celebrated the 15th annual Take Your Dog to Work Day...",
-        "image": "blog3.jpg",
-        "link": "/page7",
-        "alt": "Picture by Daniel Lincoln"
+        "title": "系統功能畫面",
+        "path": "portfolio/jhaowu/系統功能畫面.jpg"
+      },
+      {
+        "title": "全部商品",
+        "path": "portfolio/jhaowu/全部商品.jpg"
+      },
+      {
+        "title": "繪師清單",
+        "path": "portfolio/jhaowu/初畫面(圖一).jpg"
+      },
+      {
+        "title": "委託商品",
+        "path": "portfolio/jhaowu/委託商品.jpg"
+      },
+      {
+        "title": "平台介紹",
+        "path": "portfolio/jhaowu/平台介紹.jpg"
+      },
+      {
+        "title": "會員管理",
+        "path": "portfolio/jhaowu/會員管理.jpg"
+      },
+      {
+        "title": "繪師介紹",
+        "path": "portfolio/jhaowu/繪師個人介紹(圖二).jpg"
       }
+    ]
+  },
+  
+  {
+    "id": 2,
+    "title": "碳為觀止",
+    "snippet": "結合語料分析、視覺化圖譜與模組化課程的氣候變遷素養教學平台，協助學生透過互動學習建構議題理解與行動意識。",
+    "image": "portfolio/碳為觀止/首頁.png",
+    "background": "portfolio/碳為觀止/封面.jpg",
+    "alt": "國科會計畫",
+    "color":"white",
+    "images": [
+      {
+        "title": "首頁",
+        "path": "portfolio/碳為觀止/首頁.png"
+      },
+      {
+        "title": "ESG氣候案例",
+        "path": "portfolio/碳為觀止/ESG氣候案例.png"
+      },
+      {
+        "title": "模組文件分類",
+        "path": "portfolio/碳為觀止/模組文件分類.png"
+      },
+      {
+        "title": "關於我們",
+        "path": "portfolio/碳為觀止/關於我們.png"
+      },
+      {
+        "title": "ESG資訊首頁",
+        "path": "portfolio/碳為觀止/ESG首頁.png"
+      }
+    ]
+  }
+  ,
+  {
+    "id": 3,
+    "category": "課程專題",
+    "title": "寵物店商家管理系統",
+    "snippet": "具備完整 CRUD 功能，協助商家管理寵物、供應商、顧客與護理手冊，並支援訂單記錄與圖表統計分析。",
+    "image": "portfolio/寵物店商家管理系統/首頁.jpg",
+    "background": "portfolio/寵物店商家管理系統/banner.jpg",
+    "alt": "寵物店管理系統專題作品",
+    "color":"#351b07",
+    "images": [
+      { "title": "首頁", "path": "portfolio/寵物店商家管理系統/首頁.gif" },
+      { "title": "註冊畫面", "path": "portfolio/寵物店商家管理系統/註冊畫面.jpg" },
+      { "title": "登入畫面", "path": "portfolio/寵物店商家管理系統/登入畫面.jpg" },
+      { "title": "使用者介面", "path": "portfolio/寵物店商家管理系統/使用者介面.jpg" },
+      { "title": "供應商管理", "path": "portfolio/寵物店商家管理系統/供應商管理.jpg" },
+      { "title": "商品管理", "path": "portfolio/寵物店商家管理系統/商品管理.jpg" },
+      { "title": "編輯鳥類", "path": "portfolio/寵物店商家管理系統/編輯鳥類.jpg" }
+    ]
+  }
+  ,
+  {
+    "id": 4,
+    "title": "高科大研討會系統",
+    "snippet": "供論文投稿、編輯，讓本校可以更有效率的整理主辦之研討會投稿論文，以及發布最新消息和會議日程。",
+    "image": "portfolio/研討會/研討會首頁.png",
+    "background": "portfolio/研討會/banner.jpg",
+    "alt": "學校系統",
+    "color":"white",
+    "images": [
+      {
+        "title": "研討會首頁",
+        "path": "portfolio/研討會/研討會首頁.png"
+      },
+      {
+        "title": "登入畫面",
+        "path": "portfolio/研討會/登入畫面.png"
+      },
+      {
+        "title": "驗證畫面",
+        "path": "portfolio/研討會/驗證畫面.png"
+      },
+      {
+        "title": "關於本研討會",
+        "path": "portfolio/研討會/關於本研討會.png"
+      },
+      {
+        "title": "投稿頁面",
+        "path": "portfolio/研討會/投稿頁面.png"
+      },
+      {
+        "title": "投稿列表頁面",
+        "path": "portfolio/研討會/投稿列表頁面.png"
+      },
+      {
+        "title": "編輯帳號頁面",
+        "path": "portfolio/研討會/編輯帳號頁面.png"
+      }
+    ]
+  },
+  {
+    "id":5,
+    "category": "課程專題",
+    "title": "健康管理 App",
+    "snippet": "提供每日熱量建議、飲食紀錄、運動紀錄與圖表分析等功能，協助使用者建立個人化的健康管理模式。",
+    "image": "portfolio/健康管理APP/封面.png",
+    "background": "portfolio/健康管理APP/banner.jpg",
+    "alt": "課程專題作品",
+    "color":"#cec7c7",
+    "images": [
+      {
+        "title": "個人資料",
+        "path": "portfolio/健康管理APP/個人資料.png"
+      },
+      {
+        "title": "圖表分析",
+        "path": "portfolio/健康管理APP/圖表.png"
+      },
+      {
+        "title": "搜尋食物",
+        "path": "portfolio/健康管理APP/搜尋食物.png"
+      },
+      {
+        "title": "編輯食物",
+        "path": "portfolio/健康管理APP/編輯食物.png"
+      },
+      {
+        "title": "設定頁面",
+        "path": "portfolio/健康管理APP/設置.png"
+      },
+      {
+        "title": "運動日記",
+        "path": "portfolio/健康管理APP/運動日記.png"
+      },
+      {
+        "title": "飲食日記",
+        "path": "portfolio/健康管理APP/飲食日記.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "課程專題",
+    "title": "音樂播放網站",
+    "snippet": "結合排行榜推薦與我的最愛功能，打造簡潔直觀的音樂播放體驗，使用者可即時播放、收藏與管理歌曲。",
+    "image": "portfolio/extra-projects/音樂撥放器.png",
+    "background": "portfolio/extra-projects/音樂撥放器-banner.jpg",
+    "alt": "音樂播放平台專題作品",
+    "color":"white",
+    "images": [
+      {
+        "title": "音樂播放網站首頁",
+        "path": "portfolio/extra-projects/音樂撥放器.png"
+      }
+    ]
+  },
+  
+  {
+    "id": 7,
+    "category": "企業合作",
+    "title": "初冊文化─形象網站製作",
+    "snippet": "協助出版社打造形象網站，整合企業文化、活動介紹與客製出版理念，提升品牌辨識度與在地行銷力。",
+    "image": "portfolio/extra-projects/初冊文化.png",
+    "background": "portfolio/extra-projects/初冊-banner.jpg",
+    "alt": "企業形象網站設計",
+    "color":"rgb(44 35 27)",
+    "images": [
+      {
+        "title": "初冊文化形象網站首頁",
+        "path": "portfolio/extra-projects/初冊文化.png"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "企業合作",
+    "title": "香茗園茶行",
+    "snippet": "結合品牌設計與商業策略分析，協助台南老字號茶行進行行銷推廣與形象優化。",
+    "image": "portfolio/extra-projects/香茗園.png",
+    "background": "portfolio/extra-projects/香茗園-banner.jpg",
+    "alt": "香茗園茶行品牌合作專案",
+    "color":"rgb(59 37 39)",
+    "images": [
+      {
+        "title": "形象展示圖",
+        "path": "portfolio/extra-projects/香茗園.png"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "大數據分析與決策",
+    "snippet": "透過多種分析技術與模型，深入探討銷售資料與顧客行為，完成資料探索、分群、推薦與預測模型實作。",
+    "image": "portfolio/大數據分析與決策/banner.jpg",
+    "background": "portfolio/大數據分析與決策/banner.jpg",
+    "alt": "課程專題",
+    "color":"rgb(61 91 101)",
+    "pdf": "https://drive.google.com/file/d/1VJ_lOEpR_d6ZQB1jHiPgix88eSNPLcG7/view?usp=sharing",
+    "images": [
+      { "title": "K-means 分群結果", "path": "portfolio/大數據分析與決策/k-means 分群.png" },
+      { "title": "RFM 分析與 K-means 結果", "path": "portfolio/大數據分析與決策/RFM分析&K-means分析.png" },
+      { "title": "資料預測模型結果", "path": "portfolio/大數據分析與決策/資料預測.png" },
+      { "title": "關聯規則分析", "path": "portfolio/大數據分析與決策/關聯規則.png" },
+      { "title": "顧客實際回購金額與模型預測值對照", "path": "portfolio/大數據分析與決策/顧客推薦商品清單.png","content":"根據顧客的群組與商品購買頻率，使用關聯分析與聚類結果產出推薦清單。" }
+    ]
+  },{
+    "id": 10,
+    "title": "半導體產業未來趨勢與市場發展─PTT 爬蟲",
+    "snippet": "透過爬蟲蒐集 PTT 討論，分析台灣半導體龍頭企業之網路聲量與關鍵議題，掌握投資趨勢與市場變化。",
+    "image": "portfolio/extra-projects/半導體產業未來趨勢與市場發展-banner.jpg",
+    "background": "portfolio/extra-projects/半導體產業未來趨勢與市場發展-banner.jpg",
+    "alt": "課程專題作品",
+    "color":"white",
+    "pdf": "https://drive.google.com/file/d/1PRiPqirGdhs6FsJ61-uhOeZMMQPGUEO4/view?usp=sharing",
+    "images": [
+      {
+        "title": "半導體產業未來趨勢與市場發展圖",
+        "path": "portfolio/extra-projects/半導體產業未來趨勢與市場發展.png"
+      }
+    ]
+  },{
+    "id": 11,
+    "title": "訂單分析",
+    "alt": "課程專題",
+    "color":"white",
+    "pdf": "https://drive.google.com/file/d/1KCjNJrpKcZUQr72byyP874sFExQjBZGP/view?usp=sharing",
+    "snippet": "RFM 分群與協同過濾推薦系統，解析顧客行為與產品關聯。",
+    "image": "portfolio/extra-projects/訂單分析-banner.jpg",
+    "background": "portfolio/extra-projects/訂單分析-banner.jpg",
+    "images": [
+      {
+        "title": "群體分群與推薦商品清單",
+        "content":"以 RFM 模型搭配 K-means 演算法進行的顧客分群結果，並針對特定群體產出個人化商品推薦清單，輔以協同過濾計算使用者相似度與購買關聯，視覺化呈現商品間的關聯度與熱門搭配，有助於企業制定行銷策略與精準推薦。",
+        "path": "portfolio/extra-projects/訂單分析.png"
+      }
+    ]
+  },{
+    "id": 12,
+    "title": "機器學習與應用─鑽石價格預測",
+    "alt": "課程專題",
+    "snippet": "結合分類演算法與集成學習技術，建立鑽石價格區間預測模型。",
+    "image": "portfolio/extra-projects/鑽石價格預測-banner.jpg",
+    "background": "portfolio/extra-projects/鑽石價格預測-banner.jpg",
+    "color":"white",
+    "pdf": "https://drive.google.com/file/d/1gJ9C9kNlA3Gmv3ns3eM7gQm4IlgmHsMu/view?usp=sharing",
+    "images": [
+      {
+        "title": "群體分群與推薦商品清單",
+        "content":"以 RFM 模型搭配 K-means 演算法進行的顧客分群結果，並針對特定群體產出個人化商品推薦清單，輔以協同過濾計算使用者相似度與購買關聯，視覺化呈現商品間的關聯度與熱門搭配，有助於企業制定行銷策略與精準推薦。",
+        "path": "portfolio/extra-projects/訂單分析.png"
+      }]
+  },
+  
+  
+  
+  
+  {
+    "id": 13,
+    "title": "絃崴開發企業有限公司",
+    "snippet": "參與經濟部經貿網跨境電商平台「行銷成長營」，協助企業進行產品優化、文案重整、圖像製作與 SEO 行銷策略，成功提升網站瀏覽與曝光成效。",
+    "image": "portfolio/絃崴/封面.jpg",
+    "background": "portfolio/絃崴/banner.png",
+    "alt": "企業合作",
+    "color":"black",
+    "images": [
+    { "title": "首頁畫面", "path": "portfolio/絃崴/首頁.jpeg" },
+    { "title": "全部商品", "path": "portfolio/絃崴/全部商品.jpeg" },
+    { "title": "商品詳情", "path": "portfolio/絃崴/商品詳情.jpg" }
+  ]
+  }
+  
+  
+  
+  
+  
   ]
   

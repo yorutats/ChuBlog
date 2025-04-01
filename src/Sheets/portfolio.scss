@@ -9,16 +9,29 @@ $desktop: 1024px;
 }
 
 .card_portfolio {
-  padding: 2rem;
-  background: #f9f9f9;
+  padding: 2rem ;
+  // background: #f9f9f9;
+  width: 100%;
+  background-color: #e6e9e6;
+  // .container {
+  //   width: 100%;
+  //   max-width: 1200px;
+  //   margin: 0 auto;
+  //   padding: 0 1rem;
+  // }
 }
 
 .card_portfolio-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(1, 1fr); // 預設手機版 1 欄
+  gap: 4rem;
   justify-content: center;
+
+  @include breakpoint(desktop) {
+    grid-template-columns: repeat(4, 1fr); // ✅ 桌機版固定四欄
+  }
 }
+
 
 .card_portfolio-card {
   position: relative;

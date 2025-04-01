@@ -1,0 +1,95 @@
+[33mcommit 0a15f24a7689f84b6c3f31c570435627e833a87c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: YiChu <s20009099@gmail.com”>
+Date:   Sat Mar 29 19:55:01 2025 +0800
+
+    chore: fix previous commit message - correct Jhaowu page description
+
+[33mcommit 8c003df367c1809c603a004845bad71d2ccd1684[m
+Author: YiChu <s20009099@gmail.com”>
+Date:   Sat Mar 29 19:53:03 2025 +0800
+
+    git commit -m "feat: add Jhaowu project detail page with image zoom and system description"
+
+[33mcommit 32c6fc6e9677a5de9dbad24ed70e3b2ee025eb6b[m
+Author: YiChu <s20009099@gmail.com”>
+Date:   Sat Mar 29 19:52:12 2025 +0800
+
+    feat: add global Footer component to all pages
+
+[33mcommit b585206606c0150a86495740e9a30135055d0f4d[m
+Author: YiChu <s20009099@gmail.com”>
+Date:   Sat Mar 29 19:50:54 2025 +0800
+
+    feat: add ImageZoomWrapper component for image click-to-zoom
+
+[33mcommit c05b289058ed589c60a6aef9e76d401076fb9136[m
+Author: YiChu <s20009099@gmail.com”>
+Date:   Sat Mar 29 18:32:14 2025 +0800
+
+    fix: improve current page detection in PaginationBut using regex
+
+[33mcommit f4e0c5822f9dd12f8fc549c95efe1c0eb7191320[m
+Author: YiChu <s20009099@gmail.com”>
+Date:   Sat Mar 29 18:12:20 2025 +0800
+
+    refactor: relocate Page components into pages folder and update imports accordingly
+
+[33mcommit 5b22774715399311ff31c3fecfc4b16fbd2b689f[m
+Author: YiChu <s20009099@gmail.com”>
+Date:   Sat Mar 29 18:06:06 2025 +0800
+
+    feat: add dynamic portfolio page routing and update card links to match
+
+[33mcommit b2955082889d4c1ab7f3b46b4dee17bb58a0d9d0[m
+Author: YiChu <s20009099@gmail.com”>
+Date:   Sat Mar 29 18:04:29 2025 +0800
+
+    fix: update portfolio card links to use /portfolio/:id route
+
+[33mcommit fd590743e0adc3863083b2be5afce3d25dbeb2f3[m
+Author: YiChu <s20009099@gmail.com”>
+Date:   Fri Mar 28 02:55:12 2025 +0800
+
+    Fix broken links before uploading to IP PAGE
+
+[33mcommit 2b55b487f8595d33c31a4f3c8c5d1f758aff0c96[m
+Author: YiChu <s20009099@gmail.com”>
+Date:   Fri Mar 28 02:13:45 2025 +0800
+
+    Fix:About.css文字大小
+
+[33mcommit 808db963e8b24f593b7b310d358adfe2c0e5e91c[m
+Author: YiChu <s20009099@gmail.com”>
+Date:   Fri Mar 28 01:17:51 2025 +0800
+
+    Fix: 修正 About 頁面 CSS 排版問題
+
+[33mcommit 93ad179455b0c4469469e316707578208ac0f561[m
+Author: yorutsts <s20009099@gmail.com>
+Date:   Sun Jun 25 18:45:26 2023 +0800
+
+    first commit
+
+[33mcommit 60a13d68a3d7a45f6ef6a4c148dd7e83da7ee42f[m
+Author: yorutsts <s20009099@gmail.com>
+Date:   Sun Jun 25 18:44:54 2023 +0800
+
+    first commit
+
+[33mcommit 28b75dc3a89c39942fef901f0bcc51fea8adf753[m
+Author: yorutsts <s20009099@gmail.com>
+Date:   Sun Jun 25 18:44:27 2023 +0800
+
+    first commit
+
+[33mcommit a5f97c506ebfda4b179dc84a7cda01b9c908e518[m
+Author: yorutsts <s20009099@gmail.com>
+Date:   Sun Jun 25 17:44:13 2023 +0800
+
+    first commit
+
+[33mcommit 5d51a583d88453b4b3d1db751e7f82fe049aa9b3[m
+Author: yorutsts <s20009099@gmail.com>
+Date:   Thu Jun 22 18:54:26 2023 +0800
+
+    Initialize project using Create React App
