@@ -31,6 +31,7 @@ export default function PortfolioLayout({ children }) {
               backgroundPosition: "center",
             }}
           >
+            <div className="overlay"></div>
             <div className="wrapperText">
               <h1>
                 <mark style={{ color: project.color }}>{project.title}</mark>
