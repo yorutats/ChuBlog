@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ChuBlog/static/css/main.f604509e.css",
+    "main.css": "/ChuBlog/static/css/main.3320d4d5.css",
     "main.js": "/ChuBlog/static/js/main.a7c2fdaa.js",
     "static/media/card_2.jpg": "/ChuBlog/static/media/card_2.f2127b3453a39f24f459.jpg",
     "static/media/card_3.jpg": "/ChuBlog/static/media/card_3.12af92597f322a58d0bb.jpg",
@@ -96,11 +96,11 @@
     "static/media/default.png": "/ChuBlog/static/media/default.155547c0500bcbcae357.png",
     "static/media/footer.svg": "/ChuBlog/static/media/footer.9df96e251961dd940525.svg",
     "index.html": "/ChuBlog/index.html",
-    "main.f604509e.css.map": "/ChuBlog/static/css/main.f604509e.css.map",
+    "main.3320d4d5.css.map": "/ChuBlog/static/css/main.3320d4d5.css.map",
     "main.a7c2fdaa.js.map": "/ChuBlog/static/js/main.a7c2fdaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.f604509e.css",
+    "static/css/main.3320d4d5.css",
     "static/js/main.a7c2fdaa.js"
   ]
 }
