@@ -40,7 +40,7 @@ export default function Page7() {
                 imageSrc = require(`../../../images/${img.path}`);
               } catch (e) {
                 console.warn("圖片載入失敗:", img.path);
-                imageSrc = ""; // 或設定成預設圖像 require('../../../images/default.jpg')
+                imageSrc = require("../../../images/default.png"); // 或設定成預設圖像
               }
 
               return (
