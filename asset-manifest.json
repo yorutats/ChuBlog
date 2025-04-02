@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ChuBlog/static/css/main.901a5220.css",
-    "main.js": "/ChuBlog/static/js/main.60678ae2.js",
+    "main.css": "/ChuBlog/static/css/main.b162ece3.css",
+    "main.js": "/ChuBlog/static/js/main.783c6321.js",
     "static/media/card_2.jpg": "/ChuBlog/static/media/card_2.f2127b3453a39f24f459.jpg",
     "static/media/card_3.jpg": "/ChuBlog/static/media/card_3.12af92597f322a58d0bb.jpg",
     "static/media/首頁.mp4": "/ChuBlog/static/media/首頁.8cec6b7a8684cabaf4e5.mp4",
@@ -68,10 +68,11 @@
     "static/media/供應商管理.jpg": "/ChuBlog/static/media/供應商管理.501b722125a615477fc1.jpg",
     "static/media/jfif": "/ChuBlog/static/media/637691224771830000.4b1a5cabe1d7527cd2a2.jfif",
     "static/media/編輯鳥類.jpg": "/ChuBlog/static/media/編輯鳥類.7ab29bad6e55d1f4ba6e.jpg",
+    "static/media/flower.png": "/ChuBlog/static/media/flower.fbaad614a454a1949863.png",
     "static/media/編輯帳號頁面.png": "/ChuBlog/static/media/編輯帳號頁面.19b7f182a61cfbb40a25.png",
     "static/media/會員註冊.png": "/ChuBlog/static/media/會員註冊.97bbda89ca7de6ba3ec5.png",
     "static/media/投稿頁面.png": "/ChuBlog/static/media/投稿頁面.46d13b8481e7bf030253.png",
-    "static/media/hand-drawn-flat-design-simple-flower-outline_23-2149356439.webp": "/ChuBlog/static/media/hand-drawn-flat-design-simple-flower-outline_23-2149356439.a30ed118385b6174b9ba.webp",
+    "static/media/hand-drawn-flat-design-simple-flower-outline_23-2149356439.jpg": "/ChuBlog/static/media/hand-drawn-flat-design-simple-flower-outline_23-2149356439.a30ed118385b6174b9ba.jpg",
     "static/media/字2.png": "/ChuBlog/static/media/字2.960324c837fe6fe953fc.png",
     "static/media/驗證畫面.png": "/ChuBlog/static/media/驗證畫面.04056b7731639fcea36a.png",
     "static/media/忘記密碼.png": "/ChuBlog/static/media/忘記密碼.c773273bc27bc511e309.png",
@@ -86,11 +87,11 @@
     "static/media/設置.png": "/ChuBlog/static/media/設置.447a271d3411ff2e09cb.png",
     "static/media/default.png": "/ChuBlog/static/media/default.155547c0500bcbcae357.png",
     "index.html": "/ChuBlog/index.html",
-    "main.901a5220.css.map": "/ChuBlog/static/css/main.901a5220.css.map",
-    "main.60678ae2.js.map": "/ChuBlog/static/js/main.60678ae2.js.map"
+    "main.b162ece3.css.map": "/ChuBlog/static/css/main.b162ece3.css.map",
+    "main.783c6321.js.map": "/ChuBlog/static/js/main.783c6321.js.map"
   },
   "entrypoints": [
-    "static/css/main.901a5220.css",
-    "static/js/main.60678ae2.js"
+    "static/css/main.b162ece3.css",
+    "static/js/main.783c6321.js"
   ]
 }
