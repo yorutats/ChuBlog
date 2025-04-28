@@ -82,13 +82,26 @@ export default function ApexLegendsSteamSentimentAnalysis() {
                 >
                   點此查看完整簡報
                 </a>
-                <iframe
-                  src="/ApexLegendsSteamSentimentAnalysis.html"
-                  width="100%"
-                  height="1200px"
-                  style={{ border: "none" }}
-                  title="Apex Legends Sentiment Analysis Report"
-                />
+                <div>
+                  <a
+                    href="https://github.com/yorutats/ChuBlog/blob/main/reports/ApexLegendsSentimentAndKeywords.ipynb"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pdf-link"
+                  >
+                    查看 Apex Legends 玩家情緒與關鍵字分析 Notebook
+                  </a>
+                </div>
+                <div style={{ marginBottom: "2rem" }}>
+                  <a
+                    href="https://github.com/yorutats/ChuBlog/blob/main/reports/ApexLegendsTopicModeling.ipynb"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pdf-link"
+                  >
+                    查看 Apex Legends 主題模型與議題探索 Notebook
+                  </a>
+                </div>
               </div>
               {project.images?.map((img, index) => {
                 let imageSrc;
