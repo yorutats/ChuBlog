@@ -34,7 +34,7 @@ export default function PortfolioList() {
                     </p>
                     <nav>
                       <Link
-                        to={`/portfolio/${item.id}`}
+                        to={`/portfolio/${item.slug}`}
                         className="card_portfolio-card__button"
                       >
                         View Project

@@ -1,24 +1,20 @@
-// src/Views/Portfolio/PortfolioRouter.js
 import React from "react";
 import { useParams, Navigate } from "react-router-dom";
+import portfolioData from "../../data/portfolioData.json";
 
-// src/Views/Portfolio/PortfolioRouter.js
-const context = require.context("./pages", false, /Page\d+\.js$/);
+const context = require.context("./pages", false, /\.js$/);
 
-// 建立 ID 對應 component 的 map
+// 建立 slug ➔ Component 的對應
 const componentMap = {};
 
 context.keys().forEach((key) => {
-  const match = key.match(/Page(\d+)\.js$/);
-  if (match) {
-    const id = match[1];
-    componentMap[id] = context(key).default;
-  }
+  const fileName = key.replace("./", "").replace(".js", "");
+  componentMap[fileName] = context(key).default;
 });
 
 export default function PortfolioRouter() {
-  const { id } = useParams();
-  const Component = componentMap[id];
+  const { slug } = useParams();
+  const Component = componentMap[slug];
 
   if (!Component) return <Navigate to="/portfolioList" replace />;
   return <Component />;

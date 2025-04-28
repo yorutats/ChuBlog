@@ -1,13 +1,13 @@
-// src/Components/PortfolioLayout.jsx
 import React from "react";
 import { useParams } from "react-router-dom";
 import portfolioData from "../data/portfolioData.json";
 import ImageZoomWrapper from "./ImageZoomWrapper";
 import PaginationBut from "./PaginationBut";
-import "../Sheets/page.css"; // 根據實際路徑調整
+import "../Sheets/page.css";
+
 export default function PortfolioLayout({ children }) {
-  const { id } = useParams();
-  const project = portfolioData.find((item) => item.id === parseInt(id));
+  const { slug } = useParams(); // ⬅️ 這裡改成 slug！！
+  const project = portfolioData.find((item) => item.slug === slug); // ⬅️ 用 slug 找資料！
 
   if (!project) return <div>找不到作品資料</div>;
 

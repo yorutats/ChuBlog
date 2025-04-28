@@ -1,11 +1,13 @@
 import React from "react";
 import experienceList from "../data/experience.json";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../Sheets/About.css";
 import { Avatar, Space } from "antd";
 import avatarImg from "../images/Avatar.jpg";
 
 export default function About() {
+  const navigate = useNavigate();
+
   return (
     <div className="about">
       <Link
@@ -67,11 +69,30 @@ export default function About() {
         <div className="rela-block caps greyed">Experience</div>
         {experienceList.map((item, index) => (
           <div className="experience-item" key={index}>
-            <h3>{item.title}</h3>
+            {item.link ? (
+              <h3
+                onClick={() => navigate(item.link)}
+                style={{
+                  cursor: "pointer",
+                }}
+              >
+                {item.title}
+              </h3>
+            ) : (
+              <h3>{item.title}</h3>
+            )}
+
             <p className="light">{item.subtitle}</p>
             <p className="justified">{item.description}</p>
           </div>
         ))}
+        <div className="rela-block caps greyed">Portfolio</div>
+        <button
+          className="go-portfolio-btn"
+          onClick={() => navigate("/portfolioList")}
+        >
+          查看作品集
+        </button>
       </div>
     </div>
   );
