@@ -121,37 +121,7 @@
     "background": "portfolio/ApexLegendsSteamSentimentAnalysis/banner.jpg",
     "pdf": "https://drive.google.com/file/d/1RVo9d6K_hdwyPhpI6RgdLLiA1xZibqUe/view?usp=sharing",
     "alt": "課程專題",
-    "color": "white",
-    "images": [
-      {
-        "title": "研討會首頁",
-        "path": "portfolio/研討會/研討會首頁.png"
-      },
-      {
-        "title": "登入畫面",
-        "path": "portfolio/研討會/登入畫面.png"
-      },
-      {
-        "title": "驗證畫面",
-        "path": "portfolio/研討會/驗證畫面.png"
-      },
-      {
-        "title": "關於本研討會",
-        "path": "portfolio/研討會/關於本研討會.png"
-      },
-      {
-        "title": "投稿頁面",
-        "path": "portfolio/研討會/投稿頁面.png"
-      },
-      {
-        "title": "投稿列表頁面",
-        "path": "portfolio/研討會/投稿列表頁面.png"
-      },
-      {
-        "title": "編輯帳號頁面",
-        "path": "portfolio/研討會/編輯帳號頁面.png"
-      }
-    ]
+    "color": "white"
   },
   {
     "slug": "NkustConferenceSystem",

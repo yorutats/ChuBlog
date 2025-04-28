@@ -74,10 +74,6 @@ export default function ApexLegendsSteamSentimentAnalysis() {
           <div className="image-gallery">
             <div className="image-gallery">
               <div style={{ marginBottom: "2rem" }}>
-                <a href="/reports/ApexLegendsSteamSentimentAnalysis-1.html">
-                  查看完整分析
-                </a>
-
                 <a
                   href={project.pdf}
                   target="_blank"
@@ -87,20 +83,12 @@ export default function ApexLegendsSteamSentimentAnalysis() {
                   點此查看完整簡報
                 </a>
                 <iframe
-                  src="/reports/ApexLegendsSteamSentimentAnalysis-1.html"
+                  src="/ApexLegendsSteamSentimentAnalysis.html"
                   width="100%"
                   height="1200px"
                   style={{ border: "none" }}
-                  title="Apex Legends Steam Sentiment Analysis"
+                  title="Apex Legends Sentiment Analysis Report"
                 />
-
-                <a
-                  href="/reports/ApexLegendsSteamSentimentAnalysis-1.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  查看完整報告（PDF）
-                </a>
               </div>
               {project.images?.map((img, index) => {
                 let imageSrc;
