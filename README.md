@@ -2,6 +2,12 @@
 
 您好，我是李翊曲，具備前後端開發與資料分析的經驗。在學習與實作過程中，我發現自己對各種領域都懷抱好奇與熱忱，期望未來能拓展視野，嘗試不同類型的技術與職務挑戰，不侷限於特定框架或領域，持續累積多元能力，探索最適合自己的方向。
 
+## 專案作品
+
+- [個人作品集](https://yorutats.github.io/ChuBlog/#/portfolioList)
+
+  收錄學期間與自學實作的專案，包括寵物商店管理系統、研討會網站與前端介面設計等，涵蓋 React、Flask、PostgreSQL 等。
+
 ## 簡述
 
 - 中山大學資訊管理碩士班｜GPA 4.0/4.3
@@ -17,11 +23,6 @@
 - **伺服器與系統管理**：Ubuntu Linux / Apache / LAMP 架構安裝與維護
 - **版本控制與工具**：Git / GitHub / Postman / JSON / curl / nano / wget
 
-## 專案作品
-
-- [ChuBlog 個人作品集](https://yorutats.github.io/ChuBlog/#/portfolioList)
-
-  收錄學期間與自學實作的專案，包括寵物商店管理系統、研討會網站、CMS 架設與前端介面設計等，涵蓋 React、Flask、PostgreSQL 等技術堆疊。
 
 ## 比賽經驗
 
