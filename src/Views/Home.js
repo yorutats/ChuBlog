@@ -39,18 +39,23 @@ const Home = () => {
     <div style={{ background: "#e6e9e6" }}>
       <Row>
         <Col span={24}>
-          <img src={Header} alt="Main Header" style={{ width: "100%" }} />
+          <img
+            src={Header}
+            alt="Main Header"
+            style={{
+              width: "100%",
+              height: "auto",
+              maxHeight: "400px",
+              objectFit: "cover",
+            }}
+          />
         </Col>
       </Row>
 
       <TextBlock_intro />
-      <Row>
+      <Row gutter={[16, 24]} justify="center">
         {cardsData.map((card, index) => (
-          <Col
-            xs={{ span: 5, offset: 2 }}
-            lg={{ span: 4, offset: 3 }}
-            key={index}
-          >
+          <Col xs={20} sm={12} md={8} lg={6} key={index}>
             <Card
               title={card.title}
               description={card.description}
@@ -60,6 +65,7 @@ const Home = () => {
           </Col>
         ))}
       </Row>
+
       {/* <iframe
         width="560"
         height="315"

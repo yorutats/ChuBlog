@@ -3,21 +3,21 @@ import flower from "../images/flower.png";
 
 const Panels = () => {
   return (
-    <div class="bcard-container">
-      <div class="bcard u-clearfix">
-        <div class="bcard-body">
-          <span class="bcard-number bcard-circle subtle">01</span>
-          <span class="bcard-author subtle">Li Yichu</span>
-          <h2 class="bcard-title">Future Prospects</h2>
-          <span class="bcard-description subtle">
+    <div className="bcard-container">
+      <div className="bcard u-clearfix">
+        <div className="bcard-body">
+          <span className="bcard-number bcard-circle subtle">01</span>
+          <span className="bcard-author subtle">Li Yichu</span>
+          <h2 className="bcard-title">Future Prospects</h2>
+          <span className="bcard-description subtle">
             Review the past and look forward to the future.
           </span>
-          <div class="bcard-read">Read</div>
+          <div className="bcard-read">Read</div>
           <span></span>
         </div>
-        <img src={flower} alt="" class="bcard-media" />
+        <img src={flower} alt="" className="bcard-media" />
       </div>
-      <div class="bcard-shadow"></div>
+      <div className="bcard-shadow"></div>
     </div>
   );
 };
