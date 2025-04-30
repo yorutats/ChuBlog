@@ -18,7 +18,7 @@ export default function DiamondPricePrediction() {
           </p>
 
           <hr className="section-divider" />
-          <h4>技術與架構</h4>
+          <h4 className="introduction">技術與架構</h4>
           <p>
             透過多種機器學習模型與集成學習方法，預測鑽石的價格區間，提升模型準確度與穩定性。
           </p>
@@ -43,7 +43,7 @@ export default function DiamondPricePrediction() {
           </ul>
 
           <hr className="section-divider" />
-          <h4>結果展示</h4>
+          <h4 className="introduction">結果展示</h4>
           <div className="image-gallery">
             <div className="image-gallery">
               <div style={{ marginBottom: "2rem" }}>
@@ -67,7 +67,7 @@ export default function DiamondPricePrediction() {
 
                 return (
                   <div key={index}>
-                    <h5>{img.title}</h5>
+                    <h5 className="introduction">{img.title}</h5>
                     <p>{img.content}</p>
                     <img
                       src={imageSrc}

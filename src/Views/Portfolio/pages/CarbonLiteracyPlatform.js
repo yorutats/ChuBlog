@@ -14,7 +14,7 @@ export default function CarbonLiteracyPlatform() {
           </p>
 
           <hr className="section-divider" />
-          <h4>系統架構</h4>
+          <h4 className="introduction">系統架構</h4>
           <p>
             結合資料分析與素養教育的氣候變遷學習平台，透過語料分析、視覺化圖譜與模組化課程設計，協助使用者理解氣候議題脈絡並強化行動意識。
           </p>
@@ -32,7 +32,7 @@ export default function CarbonLiteracyPlatform() {
           </ul>
 
           <hr className="section-divider" />
-          <h4>畫面展示</h4>
+          <h4 className="introduction">畫面展示</h4>
           <div className="image-gallery">
             {project.images?.map((img, index) => {
               let imageSrc;
@@ -45,7 +45,7 @@ export default function CarbonLiteracyPlatform() {
 
               return (
                 <div key={index}>
-                  <h5>{img.title}</h5>
+                  <h5 className="introduction">{img.title}</h5>
                   <img
                     src={imageSrc}
                     alt={img.title}

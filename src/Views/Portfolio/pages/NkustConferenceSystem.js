@@ -12,7 +12,7 @@ export default function NkustConferenceSystem() {
           </p>
 
           <hr className="section-divider" />
-          <h4>系統架構</h4>
+          <h4 className="introduction">系統架構</h4>
           <p>
             本研討會系統供論文投稿、編輯，讓本校可以更有效率的整理主辦之研討會投稿論文，以及發布最新消息和會議日程。在本專案中負責
             UI 設計、前端與功能討論。
@@ -25,7 +25,7 @@ export default function NkustConferenceSystem() {
           </ul>
 
           <hr className="section-divider" />
-          <h4>畫面展示</h4>
+          <h4 className="introduction">畫面展示</h4>
           <div className="image-gallery">
             <div className="image-gallery">
               {project.images?.map((img, index) => {
@@ -39,7 +39,7 @@ export default function NkustConferenceSystem() {
 
                 return (
                   <div key={index}>
-                    <h5>{img.title}</h5>
+                    <h5 className="introduction">{img.title}</h5>
                     <img
                       src={imageSrc}
                       alt={img.title}

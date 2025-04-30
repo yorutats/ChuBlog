@@ -14,7 +14,7 @@ export default function ChucherCultureWebsite() {
           </p>
 
           <hr className="section-divider" />
-          <h4>系統架構</h4>
+          <h4 className="introduction">系統架構</h4>
           <p>
             一個傳遞品牌理念與活動資訊的形象網站，協助初冊文化推廣客製出版與在地文化體驗。
           </p>
@@ -32,7 +32,7 @@ export default function ChucherCultureWebsite() {
           </ul>
 
           <hr className="section-divider" />
-          <h4>畫面展示</h4>
+          <h4 className="introduction">畫面展示</h4>
           <div className="image-gallery">
             {project.images?.map((img, index) => {
               let imageSrc;
@@ -45,7 +45,7 @@ export default function ChucherCultureWebsite() {
 
               return (
                 <div key={index}>
-                  <h5>{img.title}</h5>
+                  <h5 className="introduction">{img.title}</h5>
                   <img
                     src={imageSrc}
                     alt={img.title}

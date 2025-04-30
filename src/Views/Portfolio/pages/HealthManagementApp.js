@@ -15,7 +15,7 @@ export default function HealthManagementApp() {
           </p>
 
           <hr className="section-divider" />
-          <h4>分析流程</h4>
+          <h4 className="introduction">分析流程</h4>
           <p>
             一款整合個人化營養建議、飲食與運動紀錄、以及圖表分析的健康管理
             App，協助使用者養成科學化的生活習慣。
@@ -32,7 +32,7 @@ export default function HealthManagementApp() {
           </li>
 
           <hr className="section-divider" />
-          <h4>結果展示</h4>
+          <h4 className="introduction">結果展示</h4>
           <div className="image-gallery">
             <div className="image-gallery">
               {project.images?.map((img, index) => {
@@ -46,7 +46,7 @@ export default function HealthManagementApp() {
 
                 return (
                   <div key={index}>
-                    <h5>{img.title}</h5>
+                    <h5 className="introduction">{img.title}</h5>
                     <p>{img.content}</p>
                     <img
                       src={imageSrc}

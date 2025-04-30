@@ -19,7 +19,7 @@ export default function OrderAnalysis() {
           </p>
 
           <hr className="section-divider" />
-          <h4>分析流程</h4>
+          <h4 className="introduction">分析流程</h4>
           <p>
             透過 Python 進行訂單數據分群與推薦，深入理解顧客行為與產品關聯。
           </p>
@@ -36,7 +36,7 @@ export default function OrderAnalysis() {
           </ul>
 
           <hr className="section-divider" />
-          <h4>結果展示</h4>
+          <h4 className="introduction">結果展示</h4>
           <div className="image-gallery">
             <div className="image-gallery">
               <div style={{ marginBottom: "2rem" }}>
@@ -60,7 +60,7 @@ export default function OrderAnalysis() {
 
                 return (
                   <div key={index}>
-                    <h5>{img.title}</h5>
+                    <h5 className="introduction">{img.title}</h5>
                     <p>{img.content}</p>
                     <img
                       src={imageSrc}

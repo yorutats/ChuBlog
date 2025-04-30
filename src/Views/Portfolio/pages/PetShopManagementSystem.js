@@ -14,7 +14,7 @@ export default function PetShopManagementSystem() {
           </p>
 
           <hr className="section-divider" />
-          <h4>系統架構</h4>
+          <h4 className="introduction">系統架構</h4>
           <p>
             一套整合商品、顧客與訂單管理的寵物店後台系統，支援完整 CRUD
             與多模組操作。
@@ -34,7 +34,7 @@ export default function PetShopManagementSystem() {
           </ul>
 
           <hr className="section-divider" />
-          <h4>畫面展示</h4>
+          <h4 className="introduction">畫面展示</h4>
           <div className="image-gallery">
             {project.images?.map((img, index) => {
               let imageSrc;
@@ -47,7 +47,7 @@ export default function PetShopManagementSystem() {
 
               return (
                 <div key={index}>
-                  <h5>{img.title}</h5>
+                  <h5 className="introduction">{img.title}</h5>
                   <img
                     src={imageSrc}
                     alt={img.title}

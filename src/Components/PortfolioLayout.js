@@ -34,8 +34,14 @@ export default function PortfolioLayout({ children }) {
             <div className="overlay"></div>
             <div className="wrapperText">
               <h1>
-                <mark style={{ color: project.color }}>{project.title}</mark>
+                <mark
+                  className="project-title"
+                  style={{ color: project.color }}
+                >
+                  {project.title}
+                </mark>
               </h1>
+
               <div id="author">
                 <mark style={{ color: project.color }}>{project.alt}</mark>
               </div>

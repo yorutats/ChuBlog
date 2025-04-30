@@ -15,7 +15,7 @@ export default function JhaowuStudio() {
 
           <hr className="section-divider" />
 
-          <h4>系統架構</h4>
+          <h4 className="introduction">系統架構</h4>
           <p>
             本專題是一個整合推薦系統、會員管理與圖像商品化的委託平台，具備完整的前後端架構與資料分析流程。我負責系統架構設計、資料流整合與前後端實作。
           </p>
@@ -27,7 +27,7 @@ export default function JhaowuStudio() {
 
           <hr className="section-divider" />
 
-          <h4>畫面展示</h4>
+          <h4 className="introduction">畫面展示</h4>
           <div className="image-gallery">
             {project.images?.map((img, index) => {
               let imageSrc;
@@ -40,7 +40,7 @@ export default function JhaowuStudio() {
 
               return (
                 <div key={index}>
-                  <h5>{img.title}</h5>
+                  <h5 className="introduction">{img.title}</h5>
                   <img
                     src={imageSrc}
                     alt={img.title}

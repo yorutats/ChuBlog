@@ -17,7 +17,7 @@ export default function XiangMingYuanTea() {
           </p>
 
           <hr className="section-divider" />
-          <h4>系統架構</h4>
+          <h4 className="introduction">系統架構</h4>
           <p>
             協助台南香茗園茶行進行品牌再造與數位推廣，從 UI
             設計到行銷影片全面實踐。
@@ -36,7 +36,7 @@ export default function XiangMingYuanTea() {
           </ul>
 
           <hr className="section-divider" />
-          <h4>畫面展示</h4>
+          <h4 className="introduction">畫面展示</h4>
           <div className="image-gallery">
             <div className="image-gallery">
               {project.images?.map((img, index) => {
@@ -50,7 +50,7 @@ export default function XiangMingYuanTea() {
 
                 return (
                   <div key={index}>
-                    <h5>{img.title}</h5>
+                    <h5 className="introduction">{img.title}</h5>
                     <img
                       src={imageSrc}
                       alt={img.title}

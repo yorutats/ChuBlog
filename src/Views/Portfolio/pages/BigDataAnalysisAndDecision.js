@@ -15,7 +15,7 @@ export default function BigDataAnalysisAndDecision() {
           </p>
 
           <hr className="section-divider" />
-          <h4>分析流程</h4>
+          <h4 className="introduction">分析流程</h4>
           <p>
             運用多種資料探勘與機器學習方法，深入分析顧客與商品特徵，建構預測模型與推薦系統，輔助企業決策。
           </p>
@@ -43,7 +43,7 @@ export default function BigDataAnalysisAndDecision() {
           </ul>
 
           <hr className="section-divider" />
-          <h4>結果展示</h4>
+          <h4 className="introduction">結果展示</h4>
           <div className="image-gallery">
             <div className="image-gallery">
               <div style={{ marginBottom: "2rem" }}>
@@ -67,7 +67,7 @@ export default function BigDataAnalysisAndDecision() {
 
                 return (
                   <div key={index}>
-                    <h5>{img.title}</h5>
+                    <h5 className="introduction">{img.title}</h5>
                     <p>{img.content}</p>
                     <img
                       src={imageSrc}

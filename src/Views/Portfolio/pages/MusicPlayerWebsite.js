@@ -18,7 +18,7 @@ export default function MusicPlayerWebsite() {
           </p>
 
           <hr className="section-divider" />
-          <h4>系統架構</h4>
+          <h4 className="introduction">系統架構</h4>
           <p>
             整體介面設計以 Figma 規劃，前端使用 React.js
             實作互動邏輯與播放體驗。
@@ -33,7 +33,7 @@ export default function MusicPlayerWebsite() {
           </ul>
 
           <hr className="section-divider" />
-          <h4>畫面展示</h4>
+          <h4 className="introduction">畫面展示</h4>
           <div className="image-gallery">
             {project.images?.map((img, index) => {
               let imageSrc;
@@ -46,7 +46,7 @@ export default function MusicPlayerWebsite() {
 
               return (
                 <div key={index}>
-                  <h5>{img.title}</h5>
+                  <h5 className="introduction">{img.title}</h5>
                   <img
                     src={imageSrc}
                     alt={img.title}

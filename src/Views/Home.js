@@ -65,17 +65,6 @@ const Home = () => {
           </Col>
         ))}
       </Row>
-
-      {/* <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/uyAN9fH0ijQ?si=8x7WGS6PvbD_IZqU&amp;start=3"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe> */}
-
       <Panels />
     </div>
   );

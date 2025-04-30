@@ -22,13 +22,13 @@ export default function ApexLegendsSteamSentimentAnalysis() {
             本專案亦探討了自然語言模型分類準確率，並提出資料處理上的挑戰與改進方向，展現出文本分析在實務應用中的潛力與價值。
           </p>
 
-          <hr className="section-divider" />
-          <h4>分析流程</h4>
+          <hr className="introduction" />
+          <h4 className="introduction">分析流程</h4>
           <p>
             歸納社群情緒變化趨勢與主要負面議題並提供量化且具解釋力的社群回饋，以分析過程中的挑戰與未來優化方向，作為遊戲營運策略與玩家關係管理的參考。
           </p>
 
-          <h5>1. 資料前處理</h5>
+          <h5 className="introduction">1. 資料前處理</h5>
           <ul>
             <li>匯入 Steam 平台玩家評論資料。</li>
             <li>
@@ -37,7 +37,7 @@ export default function ApexLegendsSteamSentimentAnalysis() {
             <li>自訂停用詞，排除高頻無意義單字，完成初步文字雲視覺化。</li>
           </ul>
 
-          <h5>2. 文本結構分析</h5>
+          <h5 className="introduction">2. 文本結構分析</h5>
           <ul>
             <li>進行 Bigram 二元詞組統計，萃取常見關鍵詞組。</li>
             <li>
@@ -46,7 +46,7 @@ export default function ApexLegendsSteamSentimentAnalysis() {
             </li>
           </ul>
 
-          <h5>3. 情緒分類與議題分類</h5>
+          <h5 className="introduction">3. 情緒分類與議題分類</h5>
           <ul>
             <li>
               設定「遊戲內容」與「遊戲管理」兩大主題分類，使用 BERT
@@ -59,7 +59,7 @@ export default function ApexLegendsSteamSentimentAnalysis() {
             <li>透過模型可解釋性分析，探討影響分類的關鍵詞彙。</li>
           </ul>
 
-          <h5>4. 主題探索分析</h5>
+          <h5 className="introduction">4. 主題探索分析</h5>
           <ul>
             <li>
               應用 LDA 主題模型進行主題探索，選定最佳主題數，並視覺化主題分布。
@@ -70,7 +70,7 @@ export default function ApexLegendsSteamSentimentAnalysis() {
           </ul>
 
           <hr className="section-divider" />
-          <h4>結果展示</h4>
+          <h4 className="introduction">結果展示</h4>
           <div className="image-gallery">
             <div className="image-gallery">
               <div style={{ marginBottom: "2rem" }}>
@@ -114,7 +114,7 @@ export default function ApexLegendsSteamSentimentAnalysis() {
 
                 return (
                   <div key={index}>
-                    <h5>{img.title}</h5>
+                    <h5 className="introduction">{img.title}</h5>
                     <p>{img.content}</p>
                     <img
                       src={imageSrc}

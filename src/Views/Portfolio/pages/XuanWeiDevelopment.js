@@ -16,7 +16,7 @@ export default function XuanWeiDevelopment() {
           </p>
 
           <hr className="section-divider" />
-          <h4>系統架構</h4>
+          <h4 className="introduction">系統架構</h4>
           <p>
             本專案並未開發自有網站，主要使用經貿網平台進行內容優化與行銷設計，聚焦於
             SEO、圖片優化與數據分析回饋調整。
@@ -37,7 +37,7 @@ export default function XuanWeiDevelopment() {
           </ul>
 
           <hr className="section-divider" />
-          <h4>畫面展示</h4>
+          <h4 className="introduction">畫面展示</h4>
           <div className="image-gallery">
             <div className="image-gallery">
               {project.images?.map((img, index) => {
@@ -51,7 +51,7 @@ export default function XuanWeiDevelopment() {
 
                 return (
                   <div key={index}>
-                    <h5>{img.title}</h5>
+                    <h5 className="introduction">{img.title}</h5>
                     <img
                       src={imageSrc}
                       alt={img.title}

@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import "./Panels.css";
 import flower from "../images/flower.png";
 
 const Panels = () => {
+  const navigate = useNavigate();
   return (
     <div className="bcard-container">
       <div className="bcard u-clearfix">
@@ -12,7 +14,13 @@ const Panels = () => {
           <span className="bcard-description subtle">
             Review the past and look forward to the future.
           </span>
-          <div className="bcard-read">Read</div>
+          <div
+            className="bcard-read"
+            onClick={() => navigate("/portfolioList")}
+            style={{ cursor: "pointer" }}
+          >
+            Read
+          </div>
           <span></span>
         </div>
         <img src={flower} alt="" className="bcard-media" />

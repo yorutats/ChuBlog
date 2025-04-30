@@ -100,24 +100,24 @@ html {
 }
 
 .bcard-read {
-  cursor: pointer;
+  position: relative;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 6px;
-  margin: 15px 0 10px;
-  position: relative;
+  margin: 20px 0 10px;
   text-align: right;
   text-transform: uppercase;
+  padding-top: 10px; /* 給線條與文字留空間 */
 }
 
-.bcard-read:after {
-  background-color: #b8bddd;
+.bcard-read::before {
   content: "";
-  display: block;
-  height: 1px;
   position: absolute;
-  top: 9px;
+  top: 0; /* 線條在最上方 */
+  left: 0;
   width: 75%;
+  height: 1px;
+  background-color: #b8bddd;
 }
 
 .bcard-tag {

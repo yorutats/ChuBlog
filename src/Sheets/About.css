@@ -1,7 +1,7 @@
 .about {
-  box-sizing: border-box;
-  transition: 0.35s ease;
-  z-index: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 100vh;
   background-color: #e6e8e7;
 }
 .rela-block {
@@ -9,19 +9,8 @@
   position: relative;
   margin: auto;
 }
-.rela-inline {
-  display: inline-block;
-  position: relative;
-  margin: auto;
-}
-.floated {
-  display: inline-block;
-  position: relative;
-  margin: false;
-  float: left;
-}
+
 .abs-center {
-  display: false;
   position: absolute;
   margin: false;
   top: 50%;
@@ -44,7 +33,6 @@
 }
 .about body:before {
   content: "";
-  display: false;
   position: fixed;
   margin: 0;
   top: 0;
@@ -81,20 +69,27 @@ p.light {
   line-height: 28px;
   color: #000;
 }
-.page {
-  width: 90%;
-  max-width: 1200px;
-  margin: 80px auto;
-  background-color: #fff;
-  box-shadow: 6px 10px 28px 0px rgba(0, 0, 0, 0.4);
-}
+
 .top-bar {
-  height: 220px;
   background-color: #23222a;
+  padding-top: 5%;
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.top-name {
+  font-family: "Raleway", serif;
+  font-size: 3.5rem;
+  font-weight: 100;
+  letter-spacing: 10px;
+  margin: 0;
   color: #fff;
 }
 .name {
-  display: false;
   position: absolute;
   margin: false;
   top: false;
@@ -112,22 +107,18 @@ p.light {
 .name div {
   width: 94%;
 }
-
 .side-bar {
-  display: false;
-  position: absolute;
-  margin: false;
-  height: 135%;
-  top: 100px;
-  left: 5%;
-  right: false;
-  bottom: 0;
-  width: 25em;
+  margin-left: 3%;
+  flex: 0 0 22em;
   background-color: #dddddd;
-  padding: 19em 2em 2em;
+  padding: 3rem 1.5rem;
+  box-sizing: border-box;
+  margin-top: -10em; /* ✅ 向上覆蓋 .top-bar 底部 */
+  z-index: 2; /* ✅ 確保比 .top-bar 高 */
+  position: relative; /* ✅ 否則 z-index 無效 */
 }
+
 .mugshot {
-  display: false;
   position: absolute;
   margin: false;
   top: 50px;
@@ -141,7 +132,6 @@ p.light {
   margin: -23px;
 }
 .logo {
-  display: false;
   position: absolute;
   margin: false;
   top: 0;
@@ -161,7 +151,6 @@ p.light {
   cursor: pointer;
 }
 .logo .logo-text {
-  display: false;
   margin: false;
   text-align: center;
   cursor: pointer;
@@ -174,7 +163,6 @@ p.light {
   line-height: 25.333333333333336px;
 }
 .logo-en {
-  display: false;
   margin: false;
   text-align: center;
   cursor: pointer;
@@ -187,55 +175,55 @@ p.light {
   font-weight: 400;
   letter-spacing: 1px;
 }
-.social {
-  padding-left: 60px;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-.social:before {
-  content: "";
-  display: false;
-  position: absolute;
-  margin: false;
-  top: -4px;
-  left: 10px;
-  right: false;
-  bottom: false;
-  height: 35px;
-  width: 35px;
-  background-size: cover !important;
-}
-.social.twitter:before {
-  background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_Twitter-07-128.png")
-    center no-repeat;
-}
-.social.pinterest:before {
-  background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_Pinterest-23-128.png")
-    center no-repeat;
-}
-.social.linked-in:before {
-  background: url("https://cdn3.iconfinder.com/data/icons/social-media-2026/60/Socialmedia_icons_LinkedIn-128.png")
-    center no-repeat;
-}
-.side-header {
-  font-family: "Open Sans";
+.side-header,
+.section-header {
   font-size: 18px;
-  letter-spacing: 4px;
   font-weight: 600;
-  line-height: 28px;
-  margin: 3em auto 10px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #888;
+  margin: 2rem 0 1rem;
+  border-bottom: 1px solid #999;
 }
+.avatar-english-name {
+  margin-top: 0;
+  font-size: 1.1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #444;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+.avatar-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.avatar-name {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem; /* ✅ 加這個讓下面更靠近 */
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+}
+
+.avatar-img {
+  width: 150px !important;
+  height: 150px !important;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .list-thing {
   margin-bottom: 10px;
   font-size: 1.3em;
 }
 .content-container {
-  margin-right: 0;
-  width: calc(95% - 350px);
-  padding: 25px 40px 50px;
-  /* background-color: #f2efeb; */
+  flex: 1;
+  padding: 2rem;
+  padding-top: 0%;
+  box-sizing: border-box;
 }
 .content-container > * {
   margin: 0 auto 25px;
@@ -251,6 +239,7 @@ p.light {
 .title {
   width: 80%;
   margin-bottom: 0;
+  margin-top: 3%;
   text-align: center;
 }
 .separator {
@@ -268,16 +257,6 @@ p.light {
   letter-spacing: 6px;
   font-weight: 600;
   line-height: 28px;
-}
-@media screen and (max-width: 1150px) {
-  .name {
-    color: #fff;
-    font-family: "Raleway";
-    font-size: 38px;
-    letter-spacing: 6px;
-    font-weight: 100;
-    line-height: 48px;
-  }
 }
 
 .avatar {
@@ -320,12 +299,6 @@ p.light {
   line-height: 1.6;
   color: #444444;
 }
-.portfolio-button-container {
-  display: flex;
-  justify-content: center; /* 水平置中按鈕 */
-  align-items: center; /* 垂直置中（如需整區置中） */
-  margin-top: 2rem;
-}
 
 .go-portfolio-btn {
   width: 20em !important;
@@ -353,4 +326,39 @@ p.light {
 
 .go-portfolio-btn:active {
   transform: scale(0.98);
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .side-bar,
+  .content-container {
+    flex: 1;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto; /* ✅ 水平置中 */
+    margin-top: 3%;
+  }
+  .top-bar {
+    height: 2em; /* ✅ 原本是 15em，可以縮小 */
+    padding-top: 1em; /* ✅ 避免內容貼頂 */
+  }
+  .top-name {
+    font-size: 1.8rem;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  .avatar-name {
+    font-size: 1.5rem;
+  }
+
+  .avatar-img {
+    width: 100px !important;
+    height: 100px !important;
+  }
 }
