@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ChuBlog/static/css/main.27a4753e.css",
-    "main.js": "/ChuBlog/static/js/main.49afa310.js",
+    "main.css": "/ChuBlog/static/css/main.12b23b7a.css",
+    "main.js": "/ChuBlog/static/js/main.f033cc87.js",
     "static/media/card_2.jpg": "/ChuBlog/static/media/card_2.f2127b3453a39f24f459.jpg",
     "static/media/card_3.jpg": "/ChuBlog/static/media/card_3.12af92597f322a58d0bb.jpg",
     "static/media/首頁.mp4": "/ChuBlog/static/media/首頁.8cec6b7a8684cabaf4e5.mp4",
@@ -88,11 +88,11 @@
     "static/media/設置.png": "/ChuBlog/static/media/設置.447a271d3411ff2e09cb.png",
     "static/media/default.png": "/ChuBlog/static/media/default.155547c0500bcbcae357.png",
     "index.html": "/ChuBlog/index.html",
-    "main.27a4753e.css.map": "/ChuBlog/static/css/main.27a4753e.css.map",
-    "main.49afa310.js.map": "/ChuBlog/static/js/main.49afa310.js.map"
+    "main.12b23b7a.css.map": "/ChuBlog/static/css/main.12b23b7a.css.map",
+    "main.f033cc87.js.map": "/ChuBlog/static/js/main.f033cc87.js.map"
   },
   "entrypoints": [
-    "static/css/main.27a4753e.css",
-    "static/js/main.49afa310.js"
+    "static/css/main.12b23b7a.css",
+    "static/js/main.f033cc87.js"
   ]
 }
