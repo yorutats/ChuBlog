@@ -28,8 +28,8 @@ const Home = () => {
       path: "/portfolioList",
     },
     {
-      title: "Work",
-      description: "此區塊尚未開放，謝謝您",
+      title: "Thesis",
+      description: "Application of Machine Learning for Early Identification of Hand Movement Patterns in Children with Autism",
       imageUrl: Card_img3,
       path: "/#",
     },

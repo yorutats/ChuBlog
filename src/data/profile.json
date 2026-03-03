@@ -1,0 +1,46 @@
+{
+    "name": {
+        "zh": "李翊曲",
+        "en": "LI YI-CHU"
+    },
+    "education": [
+        "● 國立中山大學 資訊管理研究所 碩士",
+        "● 國立高雄科技大學 智慧商務系 學士",
+        "● 國立臺南大學附屬高級中學"
+    ],
+    "expertise": [
+        {
+            "category": "Back-end",
+            "skills": [
+                ".NET 8 / C#",
+                "Clean Architecture",
+                "ASP.NET Web API",
+                "Node.js"
+            ]
+        },
+        {
+            "category": "Front-end",
+            "skills": [
+                "React / JavaScript",
+                "styled-components",
+                "Kendo UI / Ant Design"
+            ]
+        },
+        {
+            "category": "Database",
+            "skills": [
+                "SQL Server / MySQL",
+                "PostgreSQL / MongoDB"
+            ]
+        },
+        {
+            "category": "Tools & Others",
+            "skills": [
+                "Git",
+                "Data Analysis",
+                "UI/UX Design"
+            ]
+        }
+    ],
+    "profileText": "我是李翊曲，目前就讀於中山大學資管所。具備豐富的企業實習經驗，曾於 Toppoint 與叡揚資訊擔任軟體開發實習生。使用 .NET 8 結合 Clean Architecture 開發企業級 API，並具備 React 前端開發與 SQL Server 資料庫設計能力。我熱衷於解決複雜的邏輯問題，持續精進系統架構設計與前後端整合開發。"
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import experienceList from "../data/experience.json";
+import profileData from "../data/profile.json";
 import { useNavigate } from "react-router-dom";
 import "../Sheets/About.css";
 import { Avatar } from "antd";
@@ -22,25 +23,31 @@ export default function About() {
         <div className="side-bar">
           <div className="avatar-block">
             <Avatar size={150} src={avatarImg} className="avatar-img" />
-            <p className="avatar-name">李翊曲</p>
-            <h1 className="avatar-english-name">LI YI-CHU</h1>
+            <p className="avatar-name">{profileData.name.zh}</p>
+            <h1 className="avatar-english-name">{profileData.name.en}</h1>
           </div>
 
           <p className="rela-block caps side-header">Education</p>
-          <p className="rela-block list-thing">中山大學 資訊管理碩士 就讀中</p>
-          <p className="rela-block list-thing">
-            國立高雄科技大學 智慧商務系（前高應 資訊管理）
-          </p>
-          <p className="rela-block list-thing">國立臺南大學附中</p>
+          {profileData.education.map((edu, index) => (
+            <p key={index} className="rela-block list-thing">{edu}</p>
+          ))}
 
           <p className="rela-block caps side-header">Expertise</p>
-          <p className="rela-block list-thing">Python</p>
-          <p className="rela-block list-thing">Java</p>
-          <p className="rela-block list-thing">Git</p>
-          <p className="rela-block list-thing">JavaScript</p>
-          <p className="rela-block list-thing">Node.js</p>
-          <p className="rela-block list-thing">MySQL</p>
-          <p className="rela-block list-thing">PostgreSQL</p>
+          {profileData.expertise.map((group, index) => (
+            <div key={index} className="expertise-group" style={{ marginBottom: "15px" }}>
+              {/* 分類標題：如 Back-end */}
+              <p className="expertise-category" style={{ fontWeight: "bold", fontSize: "0.9rem", color: "#666", marginBottom: "5px" }}>
+                {group.category}
+              </p>
+
+              {/* 技能清單：加上點點 */}
+              {group.skills.map((skill, sIndex) => (
+                <p key={sIndex} className="rela-block list-thing" style={{ paddingLeft: "10px" }}>
+                  • {skill}
+                </p>
+              ))}
+            </div>
+          ))}
         </div>
 
         {/* 右側主內容 */}
@@ -50,9 +57,7 @@ export default function About() {
           <div className="rela-block separator"></div>
           <div className="rela-block caps greyed">Profile</div>
           <p className="long-margin">
-            我是李翊曲，目前就讀於中山大學資訊管理研究所，具備前後端與資料庫系統的實作經驗。在學期間參與多個團隊專案，負責
-            UI 設計與系統建置，也曾以 React 搭配 Flask 開發寵物商店系統。
-            透過自主學習與實作，我逐步培養了解決問題與獨立開發的能力，並持續提升前後端整合與資料處理的能力。
+            {profileData.profileText}
           </p>
           <div className="rela-block caps greyed">Experience</div>
           {experienceList.map((item, index) => (

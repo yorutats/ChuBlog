@@ -1,5 +1,35 @@
 [
   {
+    "slug": "ToppointLogisticsPlatform",
+    "title": "Toppoint Inc. 物流平台",
+    "snippet": "擔任遠端後端開發實習生期間參與開發的跨國車隊調度系統。採用 .NET 8 與 Clean Architecture，實作訂單、派車與車輛維修閉環，並整合 Webhook 與事件驅動架構處理高併發需求。",
+    "image": "portfolio/Toppoint/banner.jpg",
+    "background": "portfolio/Toppoint/toppoint_banner.jpg",
+    "alt": "Toppoint 企業級物流平台",
+    "color": "#f4f6f8",
+    "images": [
+      {
+        "title": "Toppoint 系統架構封面",
+        "path": "portfolio/Toppoint/banner.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "VitalESGPlatform",
+    "title": "Vital ESG 企業永續雲端平台 (叡揚資訊)",
+    "snippet": "於叡揚資訊 (GSS) 擔任軟體工程實習生期間參與開發的企業級雲端平台。採用 React 與 .NET 架構，協助企業落實 ESG 指標管理、數據彙整與永續報告書產出。",
+    "image": "portfolio/VitalESGPlatform/vital_banner.png",
+    "background": "portfolio/VitalESGPlatform/vital_banner.png",
+    "alt": "叡揚資訊 Vital ESG 專案",
+    "color": "#f0f4f8",
+    "images": [
+      {
+        "title": "Vital 封面",
+        "path": "portfolio/VitalESGPlatform/Vital.png"
+      }
+    ]
+  },
+  {
     "slug": "JhaowuStudio",
     "title": "朝霧工作室",
     "snippet": "透過架設商務網站的方式販售客製化商品，提供消費者所期望之商品。並可進行商業、個人繪畫委託服務。",

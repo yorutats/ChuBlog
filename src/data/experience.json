@@ -1,22 +1,33 @@
 [
   {
-    "title": "國科會研究助理",
-    "subtitle": "「碳為觀止」從系統變革觀點與議題情境模擬遊戲建構氣候變遷素養（NSTC 111-2410-H-230-003-MY2）",
-    "description": "參與資料整理、系統建置、氣候素養教材開發，並協助教學平台功能設計與策略研擬。",
-    "link": "/portfolio/2"
+    "title": "Toppoint Inc. - 後端開發實習生",
+    "subtitle": "企業級物流平台開發 (遠端)",
+    "description": "應用 .NET 8 與 Clean Architecture 開發 25+ 個功能模組，重構國際化架構並實作多角色權限控制與車輛檢查系統。",
+    "link": ""
   },
-  
+  {
+    "title": "叡揚資訊 (GSS) - 軟體工程實習生",
+    "subtitle": "Vital ESG 雲端平台開發",
+    "description": "開發 React 前端模組與 C# API，維護 SQL Server 資料管道，並整合 Aspire AppHost 解決方案。",
+    "link": "/portfolio/VitalESGPlatform"
+  },
+  {
+    "title": "國科會研究助理",
+    "subtitle": "「碳為觀止」氣候變遷素養教育平台",
+    "description": "參與資料整理、系統建置、氣候素養教材開發，並協助教學平台功能設計與策略研擬。",
+    "link": "/portfolio/CarbonLiteracyPlatform"
+  },
   {
     "title": "企業合作經歷",
-    "subtitle": "與四間企業協作完成形象網站與數位行銷",
-    "description": "出冊文化、香茗園茶行、絃崴開發企業有限公司：前端設計、企業行銷分析；米米珍珠：Line Bot 製作、對話腳本設計與行銷應用規劃。",
-    "link": "/portfolio/7"
+    "subtitle": "跨產業數位轉型與形象網站建置",
+    "description": "為出冊文化、香茗園、絃崴開發建置網站；並為米米珍珠製作 Line Bot 進行數位行銷應用規劃與對話腳本設計。",
+    "link": "/portfolioList"
   },
   {
     "title": "研討會網站設計",
     "subtitle": "高雄科技大學研討會網站",
     "description": "負責網站前端視覺設計與頁面架構，提供學術活動資訊與報名服務。",
-    "link": "/portfolio/4"
+    "link": "/portfolio/NkustConferenceSystem"
   },
   {
     "title": "電商平台經營",
@@ -30,7 +41,7 @@
   },
   {
     "title": "宿舍委員會經歷",
-    "subtitle": "宿舍網管組長、服務組組長、活動主持人",
+    "subtitle": "組長、活動主持人",
     "description": "負責宿舍網路管理與分配、活動策畫與主持，包括宿舍美食日、逃生演習、音控與典禮活動等。"
   }
 ]
